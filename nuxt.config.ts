@@ -15,7 +15,7 @@ interface NuxtConfig {
 	}
 }
 
-export default defineNuxtConfig<NuxtConfig>({
+export default defineNuxtConfig({
 	modules: ['@nuxt/image-edge', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
 	googleFonts: {
 		families: {

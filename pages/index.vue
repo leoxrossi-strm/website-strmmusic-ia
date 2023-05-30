@@ -7,7 +7,7 @@
 		>
 			<div class="hidden lg:block">
 				<video playsinline autoplay muted loop>
-					<source src="videos/video_strm01.m4v" type="video/mp4" />
+					<source src="/videos/video_strm01.mp4" type="video/mp4" />
 				</video>
 			</div>
 			<h1
