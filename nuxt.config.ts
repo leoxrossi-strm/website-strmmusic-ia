@@ -16,17 +16,15 @@ interface NuxtConfig {
 }
 
 export default defineNuxtConfig({
-	modules: ['@nuxt/image-edge', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'],
+	modules: ['@nuxt/image-edge', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', 'nuxt-icon'],
 	googleFonts: {
 		families: {
 			Cabin: [400, 700]
 		},
 		display: 'swap',
-		subsets: 'greek',
-		text: 'Hello world',
 		prefetch: true,
 		preconnect: true,
 		preload: true,
-		useStylesheet: false
+		useStylesheet: true
 	}
 })

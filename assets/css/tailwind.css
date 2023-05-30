@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.titleHeader {
+	@apply text-white font-CabinFont text-3xl leading-[48px] text-left px-12 lg:px-0 lg:text-left lg:text-[76px] lg:leading-[106px] 2xl:text-[100px] 2xl:leading-[136px] lg:font-bold;
+}
