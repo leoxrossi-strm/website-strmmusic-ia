@@ -3,7 +3,7 @@ export default {
 		content: [],
 		extend: {
 			fontFamily: {
-				Cabin: ['Cabin', 'sans-serif']
+				CabinFont: ['Cabin', 'sans-serif']
 			}
 		}
 	}
