@@ -16,7 +16,13 @@ interface NuxtConfig {
 }
 
 export default defineNuxtConfig({
-	modules: ['@nuxt/image-edge', '@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', 'nuxt-icon'],
+	modules: [
+		'@nuxt/image-edge',
+		'@nuxtjs/google-fonts',
+		'@nuxtjs/tailwindcss',
+		'nuxt-icon',
+		'@nuxt/devtools'
+	],
 	googleFonts: {
 		families: {
 			Cabin: [400, 700]

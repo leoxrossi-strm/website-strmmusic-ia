@@ -2,8 +2,9 @@
 	<header
 		class="mx-auto h-[825px] w-screen lg:h-screen bg-section relative video-background overflow-hidden"
 	>
+		<NavBar />
 		<div
-			class="w-full lg:max-w-[1440px] flex flex-col items-start lg:items-start gap-4 lg:pl-36 pt-28 lg:pt-32 2xl:pl-36 2xl:pt-56"
+			class="w-full lg:max-w-[1440px] flex flex-col items-start lg:items-start gap-4 lg:pl-36 pt-28 lg:pt-32 2xl:pl-36 2xl:pt-36"
 		>
 			<div class="hidden lg:block">
 				<video playsinline autoplay muted loop>
@@ -19,15 +20,15 @@
 
 			<div class="px-12 flex flex-col gap-6 mt-5">
 				<span class="lg:hidden">
-					<ButtonBg text="Ouse testar" url="#" />
+					<ButtonBg />
 				</span>
 				<span class="lg:hidden">
-					<ButtonOut text="Fale com seu A&R" url="#" />
+					<ButtonOut />
 				</span>
 			</div>
 			<span class="hidden lg:flex gap-4 mt-2">
-				<ButtonBg text="Ouse testar" url="#" class="shadow-2xl" />
-				<ButtonOut text="Fale com seu A&R" url="#" />
+				<ButtonBg />
+				<ButtonOut url="#" />
 			</span>
 		</div>
 		<div class="black-retangle"></div>

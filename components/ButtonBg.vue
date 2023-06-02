@@ -12,10 +12,12 @@
 const props = defineProps({
 	text: {
 		type: String,
+		default: 'Ouse Testar',
 		required: true
 	},
 	url: {
 		type: String,
+		default: '#',
 		required: true
 	}
 })
