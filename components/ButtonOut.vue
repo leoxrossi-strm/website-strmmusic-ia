@@ -4,7 +4,7 @@
 		class="bg-transparent border-2 border-primaryPurple text-primary text-sm flex font-CabinFont justify-between items-center rounded-[32px] py-3 px-6 gap-2 outline-none font-normal"
 	>
 		{{ text }}
-		<Icon name="bi:arrow-right-short" color="white" />
+		<Icon name="bi:chevron-right" color="white" />
 	</NuxtLink>
 </template>
 
