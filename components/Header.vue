@@ -1,10 +1,10 @@
 <template>
 	<header
-		class="mx-auto h-[825px] w-screen lg:h-screen bg-section relative video-background overflow-hidden"
+		class="bg-section video-background relative mx-auto h-[825px] w-screen overflow-hidden lg:h-screen"
 	>
 		<NavBar />
 		<div
-			class="w-full lg:max-w-[1440px] flex flex-col items-start lg:items-start gap-4 lg:pl-36 pt-28 lg:pt-32 2xl:pl-36 2xl:pt-36"
+			class="flex w-full flex-col items-start gap-4 pt-28 lg:max-w-[1440px] lg:items-start lg:pl-36 lg:pt-12 2xl:pl-36 2xl:pt-36"
 		>
 			<div class="hidden lg:block">
 				<video playsinline autoplay muted loop>
@@ -14,11 +14,11 @@
 			<h1 class="titleHeader">
 				Tudo que uma <span class="block"> grande gravadora</span> poderia te oferecer
 			</h1>
-			<h2 class="px-12 lg:px-0 lg:text-2xl font-CabinFont">
+			<h2 class="px-12 font-CabinFont lg:px-0 lg:text-2xl">
 				com a liberdade que só um artista independente pode ter.
 			</h2>
 
-			<div class="px-12 flex flex-col gap-6 mt-5">
+			<div class="mt-5 flex flex-col gap-6 px-12">
 				<span class="lg:hidden">
 					<ButtonBg />
 				</span>
@@ -26,7 +26,7 @@
 					<ButtonOut />
 				</span>
 			</div>
-			<span class="hidden lg:flex gap-4 mt-2">
+			<span class="mt-2 hidden gap-4 lg:flex">
 				<ButtonBg />
 				<ButtonOut url="#" />
 			</span>

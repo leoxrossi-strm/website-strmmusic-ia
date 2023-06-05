@@ -17,11 +17,11 @@ interface NuxtConfig {
 
 export default defineNuxtConfig({
 	modules: [
+		'@nuxt/devtools',
 		'@nuxt/image-edge',
 		'@nuxtjs/google-fonts',
 		'@nuxtjs/tailwindcss',
-		'nuxt-icon',
-		'@nuxt/devtools'
+		'nuxt-icon'
 	],
 	googleFonts: {
 		families: {
