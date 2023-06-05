@@ -5,15 +5,16 @@
     class="flex flex-col lg:flex-row lg:px-[110px] 2xl:px-[148px] items-start lg:gap-16 2xl:gap-[316px]"
   >
     <div class="flex justify-start relative">
-      <nuxt-img src="images/svg/player.svg" alt="player" class="lg:hidden" />
-      <nuxt-img src="images/svg/playerDesktop.svg" alt="playerDesktop" class="hidden lg:block min-w-[322px]" />
+      <nuxt-img src="images/svg/player.svg" alt="player" class="lg:hidden"  loading="lazy" />
+      <nuxt-img src="images/svg/playerDesktop.svg" alt="playerDesktop" class="hidden lg:block min-w-[322px]"  loading="lazy" />
 
       <nuxt-img
         src="images/png/playerImage.png"
         format="webp"
         alt="playerImage"
         class="absolute left-1/2 transform -translate-x-1/2 w-[90px] h-[90px] lg:w-[173px] lg:h-[172px]"
-
+        loading="lazy"  
+        
       />
     </div>
     <div class="text-left lg:text-left pt-6">

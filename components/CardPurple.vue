@@ -2,7 +2,7 @@
 	<div class="gradient-border">
 		<div class="gradient-box">
 			<div class="flex items-start justify-between px-4 pt-[22px]">
-				<nuxt-img :src="icon" alt="ícone" />
+				<nuxt-img :src="icon" alt="ícone" loading="lazy" />
 				<div class="flex items-center pb-[8px]">
 					<div :class="status == 'Disponível agora' ? 'avaialable' : 'development'">
 						<p class="pr-4 font-CabinFont text-sm font-bold">{{ status }}</p>
@@ -13,7 +13,7 @@
 							src="images/svg/available.svg"
 							alt="ícone"
 						/>
-						<nux-img v-else src="images/svg/development.svg" alt="ícone" />
+						<nux-img v-else src="images/svg/development.svg" alt="ícone" loading="lazy" />
 					</div>
 				</div>
 			</div>
