@@ -1,0 +1,81 @@
+t
+<template>
+	<section class="w-scree my-element mt-[40px] lg:mt-[210px]">
+		<div class="mx-auto w-[80%] lg:w-[71%]">
+			<div
+				class="flex flex-col items-start justify-start pt-10 text-start lg:items-center lg:justify-center lg:pb-[243px] lg:pt-[230px] lg:text-center"
+			>
+				<div class="box">
+					<img src="images/svg/searchIcon.svg" alt="pesquisar" />
+				</div>
+				<h2
+					class="pt-6 font-CabinFont text-2xl font-bold leading-[34px] lg:pt-8 2xl:text-5xl 2xl:leading-[58px]"
+				>
+					<span class="2xl:block">Nossa AI absorve conhecimento em tempo real de mais</span> de
+					<span class="xl:text-primaryPurple">
+						1,5 milhões de artistas e 100 milhões de faixas</span
+					>
+				</h2>
+				<p class="pt-4 font-CabinFont text-lg text-secondary xl:text-2xl xl:leading-[34px]">
+					nas principais plataformas de streaming de música
+					<span class="xl:block"> e redes sociais.</span>
+				</p>
+				<div class="flex pb-24 pt-[48px] xl:pt-7">
+					<nuxt-img src="images/svg/u_Spotify.svg" alt="spotify" />
+					<nuxt-img src="images/svg/u_apple.svg" alt="apple music" class="pl-6" />
+					<nuxt-img src="images/svg/u_TikTok.svg" alt="tik tok" class="pl-6" />
+					<nuxt-img src="images/svg/u_youtube.svg" alt="youtube" class="pl-6" />
+				</div>
+			</div>
+		</div>
+	</section>
+</template>
+<style scoped>
+.box {
+	position: relative;
+	padding: 20px; /* Adjust the padding */
+	border-radius: 99px; /* Adjust the border-radius */
+	box-shadow: 0px 0px 26px -6px #7673f2;
+}
+
+.box::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	width: 70px;
+	border-radius: 99px;
+	padding: 2px;
+	background: linear-gradient(
+		to right,
+		#e64b4b 0%,
+		#f3795e 14.28%,
+		#e4bc5c 28.56%,
+		#39d68d 42.84%,
+		#37b1e4 57.12%,
+		#874fc6 71.4%,
+		#f05576 85.68%
+	);
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
+}
+
+.my-element {
+	background: linear-gradient(180deg, #5a57ff 11.74%, rgba(36, 35, 102, 0) 100%);
+	background-image: url('images/png/BgMobile.png');
+	/* Optional properties */
+	background-repeat: no-repeat; /* Prevent the image from repeating */
+	background-size: cover; /* Resize the image to cover the entire element */
+}
+
+@media (min-width: 640px) {
+	.my-element {
+		background: linear-gradient(180deg, #5a57ff 11.74%, rgba(36, 35, 102, 0) 100%);
+		background-image: url('images/png/BgMobile.png');
+		/* Optional properties */
+		background-repeat: no-repeat; /* Prevent the image from repeating */
+		background-size: cover; /* Resize the image to cover the entire element */
+		background-image: url('images/png/bgMusicMin.png');
+	}
+}
+</style>
