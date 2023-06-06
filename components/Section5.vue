@@ -12,7 +12,12 @@
 
 		<div class="hidden gap-y-14 pt-14 sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/rapperUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/rapperUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -30,7 +35,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/cantoraUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/cantoraUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -48,7 +58,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/sertanejoUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/sertanejoUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -66,7 +81,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/mbpUpscaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/mbpUpscaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -84,7 +104,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/bandaUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/bandaUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -102,7 +127,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/acusticoUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/acusticoUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -120,7 +150,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/estudioUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/estudioUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -138,7 +173,12 @@
 				</div>
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img src="images/webp/tocandoUpScaler.webp" alt="musicos" class="w-[100%] pb-4" />
+				<nuxt-img
+					src="images/webp/tocandoUpScaler.webp"
+					alt="musicos"
+					class="w-[100%] pb-4"
+					loading="lazy"
+				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
@@ -159,7 +199,7 @@
 	</section>
 
 	<div class="sm:hidden">
-		<Carousel />
+		<LazyCarousel />
 	</div>
 </template>
 <style scoped>

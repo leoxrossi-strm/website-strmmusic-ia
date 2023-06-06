@@ -6,7 +6,7 @@ t
 				class="flex flex-col items-start justify-start pt-10 text-start lg:items-center lg:justify-center lg:pb-[243px] lg:pt-[230px] lg:text-center"
 			>
 				<div class="box">
-					<nuxt-img src="images/svg/searchIcon.svg" alt="pesquisar" />
+					<nuxt-img src="images/svg/searchIcon.svg" alt="pesquisar" loading="lazy" />
 				</div>
 				<h2
 					class="pt-6 font-CabinFont text-2xl font-bold leading-[34px] lg:pt-8 2xl:text-5xl 2xl:leading-[58px]"
@@ -21,10 +21,10 @@ t
 					<span class="xl:block"> e redes sociais.</span>
 				</p>
 				<div class="flex pb-24 pt-[48px] xl:pt-7">
-					<nuxt-img src="images/svg/u_Spotify.svg" alt="spotify" />
-					<nuxt-img src="images/svg/u_apple.svg" alt="apple music" class="pl-6" />
-					<nuxt-img src="images/svg/u_TikTok.svg" alt="tik tok" class="pl-6" />
-					<nuxt-img src="images/svg/u_youtube.svg" alt="youtube" class="pl-6" />
+					<nuxt-img src="images/svg/u_Spotify.svg" alt="spotify" loading="lazy" />
+					<nuxt-img src="images/svg/u_apple.svg" alt="apple music" class="pl-6" loading="lazy" />
+					<nuxt-img src="images/svg/u_TikTok.svg" alt="tik tok" class="pl-6" loading="lazy" />
+					<nuxt-img src="images/svg/u_youtube.svg" alt="youtube" class="pl-6" loading="lazy" />
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,7 @@
   >
     <div class="flex justify-start relative">
       <nuxt-img src="images/svg/player.svg" alt="player" class="lg:hidden"  loading="lazy" />
-      <nuxt-img src="images/svg/playerDesktop.svg" alt="playerDesktop" class="hidden lg:block min-w-[322px]"  loading="lazy" />
+      <nuxt-img src="images/svg/playerDesktop.svg" alt="playerDesktop" class="hidden lg:block min-w-[322px]" loading="lazy" />
 
       <nuxt-img
         src="images/png/playerImage.png"

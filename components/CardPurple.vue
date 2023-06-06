@@ -12,6 +12,7 @@
 							v-if="status === 'Disponível agora'"
 							src="images/svg/available.svg"
 							alt="ícone"
+							loading="lazy"
 						/>
 						<nux-img v-else src="images/svg/development.svg" alt="ícone" loading="lazy" />
 					</div>
