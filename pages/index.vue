@@ -2,5 +2,5 @@
 	<Header />
 	<Section2 />
 	<Section3 />
-	<Section4 />
+	<LazySection4 />
 </template>
