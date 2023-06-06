@@ -328,22 +328,9 @@ const toggle2 = () => {
 const price1 = ref(null)
 const priceHeight = ref(0)
 
-const updateHeight = () => {
-	if (window.innerWidth <= 768) {
-		// 768px is a common breakpoint for small screens
-		priceHeight.value = 0
-	} else {
-		priceHeight.value = price1.value.clientHeight
-	}
-}
-
-onMounted(() => {
-	window.addEventListener('resize', updateHeight)
-	updateHeight() // Call the function initially to set the correct height
-})
-
-onUnmounted(() => {
-	window.removeEventListener('resize', updateHeight)
+onMounted(async () => {
+	await nextTick()
+	priceHeight.value = price1.value.clientHeight
 })
 
 const priceClass = computed(() => {
