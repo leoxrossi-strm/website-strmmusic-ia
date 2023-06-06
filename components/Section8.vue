@@ -34,8 +34,14 @@
 					src="images/webp/caucasianFemaleSingerBlur.webp"
 					alt="cantora"
 					class="lg:hidden"
+					loading="lazy"
 				/>
-				<nuxt-img src="images/webp/singer.webp" alt="cantora" class="hidden lg:block" />
+				<nuxt-img
+					src="images/webp/singer.webp"
+					alt="cantora"
+					class="hidden lg:block"
+					loading="lazy"
+				/>
 			</div>
 		</div>
 		<div class="pink-shape"></div>
