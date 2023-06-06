@@ -338,14 +338,12 @@ const priceClass = computed(() => {
 		return {
 			height: 'auto',
 			overflow: 'visible',
-			padding: '0rem 1.5rem 3rem 1.5rem',
-			transition: 'all 0.5s ease-in'
+			padding: '0rem 1.5rem 3rem 1.5rem'
 		}
 	} else {
 		return {
 			height: `${priceHeight.value}px`,
-			overflow: 'hidden',
-			transition: 'all 0.5s ease-out'
+			overflow: 'hidden'
 		}
 	}
 })
@@ -355,14 +353,12 @@ const priceClass1 = computed(() => {
 		return {
 			height: 'auto',
 			overflow: 'visible',
-			padding: '0rem 1.5rem 3rem 1.5rem',
-			transition: 'all 0.5s ease-in'
+			padding: '0rem 1.5rem 3rem 1.5rem'
 		}
 	} else {
 		return {
 			height: `${priceHeight.value}px`,
-			overflow: 'hidden',
-			transition: 'all 0.5s ease-out'
+			overflow: 'hidden'
 		}
 	}
 })
