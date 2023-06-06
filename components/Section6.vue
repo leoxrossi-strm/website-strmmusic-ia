@@ -22,7 +22,7 @@
 			</div>
 		</div>
 		<nuxt-img
-			src="images/webp/soundWave.webp"
+			src="images/webp/soundwave.webp"
 			alt="ilustração"
 			class="absolute right-[-190px] top-[35px] -z-10 w-[340px] lg:hidden"
 			loading="lazy"
@@ -33,7 +33,7 @@
 <style scoped>
 @media (min-width: 1280px) {
 	.illustration {
-		background-image: url('images/webp/soundWave.webp');
+		background-image: url('images/webp/soundwave.webp');
 		background-repeat: no-repeat;
 		background-size: 430px;
 		background-position: 100% 42%;
