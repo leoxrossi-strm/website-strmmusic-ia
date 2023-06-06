@@ -21,7 +21,8 @@ export default defineNuxtConfig({
 		'@nuxt/image-edge',
 		'@nuxtjs/google-fonts',
 		'@nuxtjs/tailwindcss',
-		'nuxt-icon'
+		'nuxt-icon',
+		'nuxt-delay-hydration'
 	],
 	googleFonts: {
 		families: {
