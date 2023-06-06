@@ -24,7 +24,9 @@
 		<nuxt-img
 			src="images/webp/soundwave.webp"
 			alt="ilustração"
-			class="absolute right-[-190px] top-[35px] -z-10 w-[340px] lg:hidden"
+			class="absolute right-[-190px] top-[35px] -z-10 lg:hidden"
+			width="340"
+			height="340"
 			loading="lazy"
 		/>
 	</section>
