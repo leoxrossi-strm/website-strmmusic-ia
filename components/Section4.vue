@@ -62,7 +62,7 @@ t
 
 .my-element {
 	background: linear-gradient(180deg, #5a57ff 11.74%, rgba(36, 35, 102, 0) 100%);
-	background-image: url('images/webp/bgmobile.webp');
+	background-image: url('/images/webp/bgmobile.webp');
 	/* Optional properties */
 	background-repeat: no-repeat; /* Prevent the image from repeating */
 	background-size: cover; /* Resize the image to cover the entire element */
@@ -71,11 +71,10 @@ t
 @media (min-width: 640px) {
 	.my-element {
 		background: linear-gradient(180deg, #5a57ff 11.74%, rgba(36, 35, 102, 0) 100%);
-
+		background-image: url('/images/png/bgMusicMin.png');
 		/* Optional properties */
 		background-repeat: no-repeat; /* Prevent the image from repeating */
 		background-size: cover; /* Resize the image to cover the entire element */
-		background-image: url('images/png/bgMusicMin.png');
 	}
 }
 </style>

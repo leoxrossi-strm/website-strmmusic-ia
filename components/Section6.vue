@@ -35,7 +35,7 @@
 <style scoped>
 @media (min-width: 1280px) {
 	.illustration {
-		background-image: url('images/webp/soundwave.webp');
+		background-image: url('/images/webp/soundwave.webp');
 		background-repeat: no-repeat;
 		background-size: 430px;
 		background-position: 100% 42%;
