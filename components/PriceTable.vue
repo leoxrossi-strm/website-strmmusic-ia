@@ -10,7 +10,7 @@
 					<div class="flex items-center justify-between px-6 py-6">
 						<p class="font-CabinFont text-2xl font-bold">Strm Music</p>
 						<div class="relative">
-							<nuxt-img src="images/svg/note.svg" alt="note musical" />
+							<nuxt-img src="images/svg/note.svg" alt="note musical" width="48" height="50" />
 							<nuxt-img src="images/svg/noteArrow.svg" alt="note musical" class="absolute top-2" />
 						</div>
 					</div>
@@ -69,7 +69,7 @@
 					<div class="flex items-center justify-between px-6 py-6">
 						<p class="font-CabinFont text-2xl font-bold">Strm Stars</p>
 						<div class="relative">
-							<nuxt-img src="images/svg/music.svg" alt="note musical" />
+							<nuxt-img src="images/svg/music.svg" alt="note musical" width="52" height="55" />
 							<nuxt-img
 								src="images/svg/musicStar.svg"
 								alt="note musical"
@@ -181,7 +181,7 @@
 					<div class="flex items-center justify-between px-6 py-6">
 						<p class="font-CabinFont text-2xl font-bold">Strm Legends</p>
 						<div class="relative">
-							<nuxt-img src="images/svg/mic.svg" alt="note musical" />
+							<nuxt-img src="images/svg/mic.svg" alt="note musical" width="44" height="57" />
 							<nuxt-img
 								src="images/svg/micStar.svg"
 								alt="note musical"

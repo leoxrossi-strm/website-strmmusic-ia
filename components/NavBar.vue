@@ -1,6 +1,6 @@
 <template>
 	<nav class="z-50 flex items-center justify-between border-b border-[#2A2A2D] lg:border-none">
-		<nuxt-img src="images/svg/logo.svg" class="pl-3 lg:pl-6" />
+		<nuxt-img src="images/svg/logo.svg" class="pl-3 lg:pl-6" width="108" height="40" />
 
 		<div class="flex items-center py-4 pr-5 lg:hidden">
 			<ButtonBg class="mr-9" />

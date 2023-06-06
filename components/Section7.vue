@@ -20,21 +20,21 @@
 			<div class="-mt-4 rounded-b-lg bg-[#0F0D2A] pt-8">
 				<ul class="px-6 pb-8 font-CabinFont text-base text-secondary" ref="price1">
 					<li class="flex items-start">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" />
+						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
 							<span class="font-bold"> Email:</span>distro@strm.com.br com SLA de 24hs
 						</p>
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" />
+						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
 							<span class="font-bold"> Chat:</span>Disponível de segunda a sexta das 9:00 às 12:00hs
 							e das 13:30 às 17:00hs
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" />
+						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
 							<span class="font-bold"> Pitching editorial:</span> Pitching nas lojas de música com
 							critério prévio Strm Distro no Spotify, Apple Music, Deezer, Amazon Music, Resso e
@@ -43,15 +43,33 @@
 						</p>
 					</li>
 					<li class="flex items-start pt-4">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2"><span class="font-bold"> Strm for labels:</span> Acesso premium</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2"><span class="font-bold"> Strm for artists:</span> Acesso premium</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Diagnóstico de carreira Strm:</span> Acesso a 2 diagnósticos
 							de carreira gratuito por ano
@@ -84,14 +102,26 @@
 			<div class="relative -mt-4 rounded-b-lg bg-[#0F0D2A] pt-8">
 				<ul class="relative px-6 pb-8 font-CabinFont text-base text-secondary" :style="priceClass">
 					<li class="flex items-start">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Email:</span>distro@strm.com.br com SLA de 24hs
 						</p>
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Chat:</span>Disponível de segunda a sexta das 9:00 às 12:00hs
 							e das 13:30 às 17:00hs
@@ -99,7 +129,13 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">Whatsapp:</span>Contato direto via whatsapp com um Label
 							Manager Strm
@@ -107,20 +143,38 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">Eventos:</span> Palestras, workshops e eventos exclusivos Strm
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">Reuniões estratégicas:</span> Reuniões online com a equipe de
 							MKT da Strm para alinhamento do plano estratégico de futuros lançamentos.
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Pitching editorial:</span> Pitching nas lojas de música com
 							critério prévio Strm Distro no Spotify, Apple Music, Deezer, Amazon Music, Resso e
@@ -130,7 +184,13 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Pitching 2ID:</span> Pitching para 2ID, para veiculação do
 							lançamento em mais de 3.500 lojas físicas de grandes marcas, saiba mais em
@@ -138,16 +198,34 @@
 						</p>
 					</li>
 					<li class="flex items-start pt-4">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2"><span class="font-bold"> Strm for labels:</span> Acesso premium</p>
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2"><span class="font-bold"> Strm for artists:</span> Acesso premium</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Diagnóstico de carreira Strm:</span> Acesso a 2 diagnósticos
 							de carreira gratuito por ano
@@ -168,8 +246,10 @@
 					<nuxt-img
 						src="images/svg/arrowReadMore.svg"
 						alt="leia mais"
-						class="ml-4 w-[18px] transition delay-150 ease-in-out"
+						class="ml-4 transition delay-150 ease-in-out"
 						:style="{ transform: isOpen1 ? 'rotate(180deg)' : 'rotate(0)' }"
+						width="18"
+						height="18"
 						loading="lazy"
 					/>
 				</div>
@@ -198,14 +278,26 @@
 			<div class="relative -mt-4 rounded-b-lg bg-[#0F0D2A] pt-8">
 				<ul class="px-6 pb-8 font-CabinFont text-base text-secondary" :style="priceClass1">
 					<li class="flex items-start">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Email:</span>distro@strm.com.br com SLA de 24hs
 						</p>
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Chat:</span>Disponível de segunda a sexta das 9:00 às 12:00hs
 							e das 13:30 às 17:00hs
@@ -213,7 +305,13 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">Whatsapp:</span>Contato direto via whatsapp com um Label
 							Manager Strm
@@ -221,21 +319,39 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">Time especial Distro:</span> Reuniões online com a equipe de
 							MKT da Strm para alinhamento do plano estratégico de futuros lançamentos. Strm
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">Reunião Presencial:</span> Reunião Presencial: Acesso ao nosso
 							escritório da Vila Madalena para reuniões de planejamento e audições. lançamentos.
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Pitching editorial:</span> Pitching nas lojas de música com
 							critério prévio Strm Distro no Spotify, Apple Music, Deezer, Amazon Music, Resso e
@@ -245,7 +361,13 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Pitching 2ID:</span> Pitching para 2ID, para veiculação do
 							lançamento em mais de 3.500 lojas físicas de grandes marcas, saiba mais em
@@ -253,7 +375,13 @@
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Gestão de tráfego:</span> Google Ads para o produto
 							audiovisual do lançamento
@@ -261,7 +389,13 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Canais de música:</span>Envio de video-clipes para os canais
 							de música Multishow, BIS, Music Box Brazil e MTV
@@ -269,7 +403,13 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Relações Públicas:</span> Trabalho focado de RP nos
 							principais meios de comunicação do segmento musical
@@ -277,16 +417,34 @@
 					</li>
 
 					<li class="flex items-start pt-4">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2"><span class="font-bold"> Strm for labels:</span> Acesso premium</p>
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2"><span class="font-bold"> Strm for artists:</span> Acesso premium</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" loading="lazy" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> Diagnóstico de carreira Strm:</span> Acesso a 2 diagnósticos
 							de carreira gratuito por ano
