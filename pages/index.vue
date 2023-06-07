@@ -7,4 +7,5 @@
 	<Section6 />
 	<Section7 />
 	<Section8 />
+	<Section9 />
 </template>
