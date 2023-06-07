@@ -4,7 +4,7 @@
 			<p class="font-CabinFont text-base text-primaryPurple">FOUNDERS</p>
 			<h2 class="py-4 font-CabinFont text-[40px] font-bold">Strm Music</h2>
 
-			<img
+			<nuxt-img
 				src="images/svg/soundWaveColored.svg"
 				alt="strm music"
 				sizes="sm:w-[208px] sm:h-[82] lg:w-[404] lg:h-[159px]"
