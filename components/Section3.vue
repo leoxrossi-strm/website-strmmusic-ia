@@ -24,11 +24,12 @@
       <h2 class="py-4 font-CabinFont font-bold text-2xl xl:text-5xl xl:leading-[67px]">
         <span class="block 2xl:hidden">A Strm é a revolução</span>
         <span class="hidden 2xl:block"
-          >A <span class="text-primaryPurple"> Strm</span> é a revolução da</span
-        >
+          >A 
+          <span class="text-primaryPurple"> Strm</span>
+         é a revolução</span>
 
         <span class="block 2xl:hidden">da música digital</span>
-        <span class="hidden 2xl:block">música digital</span>
+        <span class="hidden 2xl:block">da música digital</span>
       </h2>
       <p class="text-lg font-CabinFont">
         <span class="2xl:block">

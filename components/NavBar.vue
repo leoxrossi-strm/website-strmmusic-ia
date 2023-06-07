@@ -1,6 +1,12 @@
 <template>
 	<nav class="z-50 flex items-center justify-between border-b border-[#2A2A2D] lg:border-none">
-		<nuxt-img src="images/svg/logo.svg" class="pl-3 lg:pl-6" width="108" height="40" />
+		<nuxt-img
+			src="images/svg/logo.svg"
+			class="pl-3 lg:pl-6"
+			width="108"
+			height="40"
+			alt="logo da strm"
+		/>
 
 		<div class="flex items-center py-4 pr-5 lg:hidden">
 			<ButtonBg class="mr-9" />
@@ -46,7 +52,7 @@
 				<div
 					class="flex w-full justify-between border-b border-[#2A2A2D] pb-[18px] pt-[26px] lg:border-none"
 				>
-					<nuxt-img src="images/svg/logo.svg" alt="logo" class="pl-3" />
+					<nuxt-img src="images/svg/logo.svg" alt="logo da strm" class="pl-3" />
 					<Icon
 						name="bi:x-lg"
 						color="white"

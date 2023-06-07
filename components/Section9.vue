@@ -1,5 +1,5 @@
 <template>
-	<section class="mx-auto w-[80%] lg:mt-28 lg:max-w-[864px]">
+	<section class="z-50 mx-auto w-[80%] lg:mt-28 lg:max-w-[864px]">
 		<div class="flex flex-col items-center justify-center">
 			<p class="font-CabinFont text-base text-primaryPurple">FOUNDERS</p>
 			<h2 class="py-4 font-CabinFont text-[40px] font-bold">Strm Music</h2>
@@ -7,7 +7,7 @@
 			<nuxt-img
 				src="images/svg/soundWaveColored.svg"
 				alt="strm music"
-				sizes="sm:w-[208px] sm:h-[82] lg:w-[404] lg:h-[159px]"
+				class="h-[82] w-[208px] lg:h-[159px] lg:w-[404px]"
 				loading="lazy"
 			/>
 		</div>
@@ -51,7 +51,7 @@
 					universo de investimentos por meio de tecnologia.
 				</p>
 
-				<div @click="toggleOpen" class="flex cursor-pointer items-baseline">
+				<div @click="toggleOpen" class="z-50 flex cursor-pointer items-baseline">
 					<p class="text-lg text-primaryPurple">{{ toggleIsOpen ? 'Ler menos' : 'Ler mais' }}</p>
 					<nuxt-img
 						src="images/svg/arrowReadMore.svg"
@@ -105,7 +105,7 @@
 					desenvolvimento de carreiras artísticas. Thiago é engenheiro pela USP, com MBA pela mesma
 					instituição e especialização em Inovação e Empreendedorismo em Stanford/EUA.
 				</p>
-				<div @click="toggleOpen1" class="flex cursor-pointer items-baseline">
+				<div @click="toggleOpen1" class="relative z-50 flex cursor-pointer items-baseline">
 					<p class="text-lg text-primaryPurple">{{ toggleIsOpen1 ? 'Ler menos' : 'Ler mais' }}</p>
 					<nuxt-img
 						src="images/svg/arrowReadMore.svg"

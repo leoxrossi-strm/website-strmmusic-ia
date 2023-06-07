@@ -1,6 +1,8 @@
 <template>
-	<div class="w-full h-2 md: line"></div>
-	<slot />
+	<div class="md: line h-2 w-full"></div>
+	<main class="overflow-hidden">
+		<slot />
+	</main>
 </template>
 
 <script setup>
