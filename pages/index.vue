@@ -11,4 +11,5 @@
 	<Section10 />
 	<Section11 />
 	<Section12 />
+	<Footer />
 </template>
