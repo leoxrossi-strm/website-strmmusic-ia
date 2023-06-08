@@ -263,7 +263,13 @@
 					<div class="flex items-center justify-between px-6 py-6">
 						<p class="font-CabinFont text-2xl font-bold">Strm Legends</p>
 						<div class="relative">
-							<nuxt-img src="images/svg/mic.svg" alt="note musical" loading="lazy" />
+							<nuxt-img
+								src="images/svg/mic.svg"
+								alt="note musical"
+								width="48"
+								height="50"
+								loading="lazy"
+							/>
 							<nuxt-img
 								src="images/svg/micStar.svg"
 								alt="note musical"

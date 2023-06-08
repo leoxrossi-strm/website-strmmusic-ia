@@ -21,10 +21,37 @@ t
 					<span class="xl:block"> e redes sociais.</span>
 				</p>
 				<div class="flex pb-24 pt-[48px] xl:pt-7">
-					<nuxt-img src="images/svg/u_Spotify.svg" alt="spotify" loading="lazy" />
-					<nuxt-img src="images/svg/u_apple.svg" alt="apple music" class="pl-6" loading="lazy" />
-					<nuxt-img src="images/svg/u_TikTok.svg" alt="tik tok" class="pl-6" loading="lazy" />
-					<nuxt-img src="images/svg/u_youtube.svg" alt="youtube" class="pl-6" loading="lazy" />
+					<nuxt-img
+						src="images/svg/u_Spotify.svg"
+						alt="spotify"
+						width="23"
+						height="27"
+						loading="lazy"
+					/>
+					<nuxt-img
+						src="images/svg/u_apple.svg"
+						alt="apple music"
+						class="ml-6"
+						width="24"
+						height="27"
+						loading="lazy"
+					/>
+					<nuxt-img
+						src="images/svg/u_TikTok.svg"
+						alt="tik tok"
+						class="ml-6"
+						width="24"
+						height="27"
+						loading="lazy"
+					/>
+					<nuxt-img
+						src="images/svg/u_youtube.svg"
+						alt="youtube"
+						class="ml-6"
+						width="28"
+						height="27"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</div>
