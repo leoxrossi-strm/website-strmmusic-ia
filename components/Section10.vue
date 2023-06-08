@@ -7,12 +7,7 @@
 				<div class="flex items-center">
 					<div class="lg:hidden">
 						<div class="box">
-							<nuxt-img
-								src="images/webp/soundwave.webp"
-								alt="onda de som"
-								width="54px"
-								height="54px"
-							/>
+							<nuxt-img src="images/webp/soundwave.webp" alt="onda de som" width="54" height="54" />
 						</div>
 					</div>
 				</div>

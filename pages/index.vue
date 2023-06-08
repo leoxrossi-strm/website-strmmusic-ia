@@ -9,4 +9,5 @@
 	<Section8 />
 	<Section9 />
 	<Section10 />
+	<Section11 />
 </template>
