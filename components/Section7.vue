@@ -10,8 +10,21 @@
 					<div class="flex items-center justify-between px-6 py-6">
 						<p class="font-CabinFont text-2xl font-bold">Strm Music</p>
 						<div class="relative">
-							<nuxt-img src="images/svg/note.svg" alt="note musical" />
-							<nuxt-img src="images/svg/noteArrow.svg" alt="note musical" class="absolute top-2" />
+							<nuxt-img
+								src="images/svg/note.svg"
+								alt="note musical"
+								width="48"
+								height="50"
+								loading="lazy"
+							/>
+							<nuxt-img
+								src="images/svg/noteArrow.svg"
+								alt="note musical"
+								class="absolute top-2"
+								width="11"
+								height="14"
+								loading="lazy"
+							/>
 						</div>
 					</div>
 				</div>
@@ -273,7 +286,9 @@
 							<nuxt-img
 								src="images/svg/micStar.svg"
 								alt="note musical"
-								class="absolute left-[13.9px] top-[14px]"
+								class="absolute left-[15.5px] top-[14px]"
+								width="16"
+								height="16"
 								loading="lazy"
 							/>
 						</div>
@@ -472,6 +487,9 @@
 						alt="leia mais"
 						class="ml-4 w-[18px] transition delay-150 ease-in-out"
 						:style="{ transform: isOpen2 ? 'rotate(180deg)' : 'rotate(0)' }"
+						width="18"
+						height="10"
+						loading="lazy"
 					/>
 				</div>
 			</div>

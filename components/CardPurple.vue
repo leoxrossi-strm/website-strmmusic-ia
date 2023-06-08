@@ -29,19 +29,19 @@
 const props = defineProps({
 	icon: {
 		type: String,
-		required: true
+		
 	},
 	status: {
 		type: String,
-		required: true
+		
 	},
 	title: {
 		type: String,
-		required: true
+		
 	},
 	text: {
 		type: String,
-		required: true
+		
 	}
 })
 </script>

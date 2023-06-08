@@ -6,7 +6,13 @@ t
 				class="flex flex-col items-start justify-start pt-10 text-start lg:items-center lg:justify-center lg:pb-[243px] lg:pt-[230px] lg:text-center"
 			>
 				<div class="box">
-					<nuxt-img src="images/svg/searchIcon.svg" alt="pesquisar" loading="lazy" />
+					<nuxt-img
+						src="images/svg/searchIcon.svg"
+						alt="pesquisar"
+						width="24"
+						height="24"
+						loading="lazy"
+					/>
 				</div>
 				<h2
 					class="pt-6 font-CabinFont text-2xl font-bold leading-[34px] lg:pt-8 2xl:text-5xl 2xl:leading-[58px]"
@@ -25,7 +31,7 @@ t
 						src="images/svg/u_Spotify.svg"
 						alt="spotify"
 						width="23"
-						height="27"
+						height="24"
 						loading="lazy"
 					/>
 					<nuxt-img
@@ -33,7 +39,7 @@ t
 						alt="apple music"
 						class="ml-6"
 						width="24"
-						height="27"
+						height="25"
 						loading="lazy"
 					/>
 					<nuxt-img
@@ -41,7 +47,7 @@ t
 						alt="tik tok"
 						class="ml-6"
 						width="24"
-						height="27"
+						height="24"
 						loading="lazy"
 					/>
 					<nuxt-img

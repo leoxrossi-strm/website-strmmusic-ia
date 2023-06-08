@@ -1,7 +1,7 @@
 <template>
 	<section class="bg relative mt-20 overflow-hidden lg:mt-28">
 		<div
-			class="relative z-50 mx-auto w-[80%] pt-[90px] text-left lg:max-w-[864px] lg:pb-[182px] lg:pt-40 lg:text-left"
+			class="relative z-50 mx-auto w-[80%] pt-[90px] text-left lg:max-w-[1440px] lg:pb-[182px] lg:pt-40 lg:text-left"
 		>
 			<h2
 				class="relative z-50 font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]"
@@ -107,7 +107,7 @@
 	.singer {
 		position: absolute;
 		top: 40px;
-		right: -30%;
+		right: 0;
 
 		padding: 0 90px 0 90px;
 
