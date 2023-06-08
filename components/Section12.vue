@@ -1,0 +1,121 @@
+<template>
+	<section class="w-scree my-element relative mt-0 lg:mt-[210px]">
+		<div
+			class="mx-auto flex w-[80%] flex-col pb-16 pt-12 text-left lg:max-w-[1440px] lg:pb-40 lg:pt-40 lg:text-left"
+		>
+			<div class="flex items-center justify-center">
+				<nuxt-img
+					src="images/webp/soundwave.webp"
+					alt="sound"
+					class="lg:hidden"
+					width="54"
+					height="54"
+					loading="lazy"
+				/>
+			</div>
+			<h2
+				class="relative z-50 pt-6 font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]"
+			>
+				<span class="lg:block"> Veja qual estágio de carreira</span> você está gratuitamente agora
+			</h2>
+			<p class="relative z-50 pt-4 font-CabinFont text-base text-secondary lg:text-xl">
+				<span class="lg:block">
+					Entenda se você está elegível a distribuir com a Strm e receber</span
+				>
+				investimentos de R$ 1 mil a R$ 20 milhões.
+			</p>
+
+			<p class="relative z-50 pt-6 font-CabinFont text-base font-bold lg:text-xl">
+				<span class="block">
+					<span class="text-[#33CAE3]"> Apenas 100</span> vagas disponíveis para o</span
+				>
+				primeiro semestre de 2023
+			</p>
+			<div class="relative z-50 flex flex-col items-start justify-start gap-4 pt-8 lg:flex-row">
+				<span class="lg:hidden">
+					<ButtonBg />
+				</span>
+				<span class="hidden lg:block">
+					<ButtonBg />
+				</span>
+				<ButtonOut />
+			</div>
+		</div>
+		<nuxt-img
+			src="images/webp/soundwave.webp"
+			alt="sound"
+			class="absolute right-72 top-[104px] hidden lg:block"
+			width="451"
+			height="451"
+			loading="lazy"
+		/>
+	</section>
+</template>
+
+<style scoped>
+@media (max-width: 1024px) {
+	.bg {
+		height: 601px;
+		background: linear-gradient(180deg, #5a57ff 0%, rgba(90, 87, 255, 0) 67.33%);
+	}
+	.pink-shape {
+		position: absolute;
+		width: 285px;
+		height: 213px;
+		right: -120px;
+		top: -80px;
+
+		background: #f034a6;
+		opacity: 0.9;
+		filter: blur(28.6137px);
+		z-index: 0;
+	}
+}
+.box {
+	position: relative;
+	padding: 20px; /* Adjust the padding */
+	border-radius: 99px; /* Adjust the border-radius */
+	box-shadow: 0px 0px 26px -6px #7673f2;
+}
+
+.box::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	width: 70px;
+	border-radius: 99px;
+	padding: 2px;
+	background: linear-gradient(
+		to right,
+		#e64b4b 0%,
+		#f3795e 14.28%,
+		#e4bc5c 28.56%,
+		#39d68d 42.84%,
+		#37b1e4 57.12%,
+		#874fc6 71.4%,
+		#f05576 85.68%
+	);
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
+}
+
+.my-element {
+	background: linear-gradient(180deg, #5a57ff 11.74%, rgba(36, 35, 102, 0) 100%);
+	background-image: url('/images/webp/bgmobile.webp');
+	/* Optional properties */
+	background-repeat: no-repeat; /* Prevent the image from repeating */
+	background-size: cover; /* Resize the image to cover the entire element */
+}
+
+@media (min-width: 640px) {
+	.my-element {
+		background: linear-gradient(180deg, #5a57ff 11.74%, rgba(36, 35, 102, 0) 100%);
+
+		background-image: url('/images/png/bgMusicMin.png');
+		/* Optional properties */
+		background-repeat: no-repeat; /* Prevent the image from repeating */
+		background-size: cover; /* Resize the image to cover the entire element */
+	}
+}
+</style>
