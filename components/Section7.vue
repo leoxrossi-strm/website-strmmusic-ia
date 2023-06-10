@@ -35,7 +35,7 @@
 					<li class="flex items-start">
 						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
-							<span class="font-bold"> Email:</span>distro@strm.com.br com SLA de 24hs
+							<span class="font-bold"> Email:</span> distro@strm.com.br com SLA de 24hs
 						</p>
 					</li>
 
@@ -100,11 +100,19 @@
 					<div class="flex items-center justify-between px-6 py-6">
 						<p class="font-CabinFont text-2xl font-bold">Strm Stars</p>
 						<div class="relative">
-							<nuxt-img src="images/svg/music.svg" alt="note musical" loading="lazy" />
+							<nuxt-img
+								src="images/svg/music.svg"
+								alt="note musical"
+								width="55"
+								height="52"
+								loading="lazy"
+							/>
 							<nuxt-img
 								src="images/svg/musicStar.svg"
 								alt="note musical"
 								class="absolute left-[5px] top-[4px]"
+								width="16"
+								height="16"
 								loading="lazy"
 							/>
 						</div>
@@ -123,7 +131,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Email:</span>distro@strm.com.br com SLA de 24hs
+							<span class="font-bold"> Email:</span> distro@strm.com.br com SLA de 24hs
 						</p>
 					</li>
 
@@ -136,8 +144,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Chat:</span>Disponível de segunda a sexta das 9:00 às 12:00hs
-							e das 13:30 às 17:00hs
+							<span class="font-bold"> Chat:</span> Disponível de segunda a sexta das 9:00 às
+							12:00hs e das 13:30 às 17:00hs
 						</p>
 					</li>
 
@@ -150,7 +158,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Whatsapp:</span>Contato direto via whatsapp com um Label
+							<span class="font-bold">Whatsapp:</span> Contato direto via whatsapp com um Label
 							Manager Strm
 						</p>
 					</li>
@@ -286,7 +294,7 @@
 							<nuxt-img
 								src="images/svg/micStar.svg"
 								alt="note musical"
-								class="absolute left-[15.5px] top-[14px]"
+								class="absolute left-[16px] top-[14px]"
 								width="16"
 								height="16"
 								loading="lazy"
@@ -307,7 +315,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Email:</span>distro@strm.com.br com SLA de 24hs
+							<span class="font-bold"> Email:</span> distro@strm.com.br com SLA de 24hs
 						</p>
 					</li>
 
@@ -320,8 +328,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Chat:</span>Disponível de segunda a sexta das 9:00 às 12:00hs
-							e das 13:30 às 17:00hs
+							<span class="font-bold"> Chat:</span> Disponível de segunda a sexta das 9:00 às
+							12:00hs e das 13:30 às 17:00hs
 						</p>
 					</li>
 
@@ -334,7 +342,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Whatsapp:</span>Contato direto via whatsapp com um Label
+							<span class="font-bold">Whatsapp:</span> Contato direto via whatsapp com um Label
 							Manager Strm
 						</p>
 					</li>
@@ -498,13 +506,11 @@
 </template>
 
 <script setup>
-import { ref, onMounted, nextTick, computed } from 'vue'
-
 const isOpen1 = ref(false)
+
 const toggle1 = () => {
 	isOpen1.value = !isOpen1.value
 }
-
 const isOpen2 = ref(false)
 const toggle2 = () => {
 	isOpen2.value = !isOpen2.value

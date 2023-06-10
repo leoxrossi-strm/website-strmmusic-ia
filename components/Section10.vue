@@ -65,9 +65,7 @@
 						</div>
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">KondZilla</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Fututrum Capital e F&S Investidor
-							</p>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">Investidor & Board Member</p>
 						</div>
 					</div>
 					<div>
@@ -123,7 +121,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Fabi Fakri</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Fututrum Capital e F&S Investidor <span class="block"> & Board Member</span>
+								Futurum Capital | F&S | Investidor <span class="block"> & Board Member</span>
 							</p>
 						</div>
 					</div>
@@ -151,7 +149,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Henrique Portugal</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Skank Investidor & Board Member
+								Skank | Investidor & Board member
 							</p>
 						</div>
 					</div>
@@ -208,8 +206,10 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nulla feugiat,
-							congue ligula ac, pellentesque ligula.
+							Rodrigo Ribeiro, administrador de empresas e advogado, trabalha no time de Special
+							Opportunities da Jive Investments, uma gestora de investimentos alternativos com
+							plataforma integrada de recuperação de créditos. Passou pelo Bank of America Merril
+							Lynch e Ambev.
 						</p>
 					</div>
 				</div>
@@ -305,7 +305,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Caco Grandino</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Diretor de distribuição Investidor <span class="block"> & Board Member</span>
+								NX Zero | Investidor & Board member
 							</p>
 						</div>
 					</div>
@@ -331,7 +331,7 @@
 						</div>
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Guto Consentino</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">CMO Board Member</p>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">CMO & Board member</p>
 						</div>
 					</div>
 					<div>
@@ -387,8 +387,10 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius justo id diam
-							viverra, a commodo lacus pellentesque.
+							Mais de 30 anos de experiência na Música. Atuando como advogado, professor e consultor
+							de negócios do setor do entretenimento, com premiações, como certificados de platina e
+							diamante. É autor do livro "Saindo da garagem: música e business", lançado pela
+							editora Atlas em 2015.
 						</p>
 					</div>
 				</div>

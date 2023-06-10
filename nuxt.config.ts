@@ -24,6 +24,7 @@ export default defineNuxtConfig({
 		'nuxt-icon',
 		'nuxt-delay-hydration'
 	],
+
 	googleFonts: {
 		families: {
 			Cabin: [400, 700]
@@ -33,5 +34,12 @@ export default defineNuxtConfig({
 		preconnect: true,
 		preload: true,
 		useStylesheet: true
+	},
+	devtools: {
+		// Enable devtools (default: true)
+		enabled: true,
+		// VS Code Server options
+		vscode: {}
+		// ...other options
 	}
 })

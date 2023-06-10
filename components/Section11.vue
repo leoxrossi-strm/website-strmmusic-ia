@@ -375,7 +375,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Ricardo de Paula</h2>
-					<p class="">Web Desgin</p>
+					<p class="">Web Developer</p>
 				</div>
 			</div>
 		</div>

@@ -9,7 +9,7 @@
 		/>
 
 		<div class="flex items-center py-4 pr-5 lg:hidden">
-			<ButtonBg class="mr-9" />
+			<ButtonBg class="mr-9 h-auto w-auto" />
 		</div>
 		<div class="mr-3 hidden h-[76px] items-center lg:flex">
 			<ul class="items-center font-CabinFont text-primary lg:flex">
