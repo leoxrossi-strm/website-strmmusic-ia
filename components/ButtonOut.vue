@@ -1,7 +1,7 @@
 <template>
 	<NuxtLink
 		:to="url"
-		class="bg-transparent border-2 border-primaryPurple text-primary text-sm flex font-CabinFont justify-between items-center rounded-[32px] py-3 px-6 gap-2 outline-none font-normal"
+		class="hvr flex items-center justify-between gap-2 rounded-[32px] border-2 border-primaryPurple bg-transparent px-6 py-3 font-CabinFont text-sm font-normal text-primary outline-none"
 	>
 		{{ text }}
 		<Icon name="bi:chevron-right" color="white" />
@@ -22,3 +22,11 @@ const props = defineProps({
 	}
 })
 </script>
+
+<style scoped>
+.hvr:hover {
+	box-shadow: #5a57ff 0px 0px 10px 0px, #1f1d56 0px 0px 20px 0px;
+
+	transition: all 0.2s ease 0s;
+}
+</style>
