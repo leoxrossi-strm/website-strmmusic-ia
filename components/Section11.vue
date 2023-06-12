@@ -124,7 +124,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Mila Cavalhero</h2>
-					<p class="">Commercial Project Manager</p>
+					<p class="">Commercial Manager</p>
 				</div>
 			</div>
 			<div class="card">
@@ -138,7 +138,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Alexandre Francisco</h2>
-					<p class="">A_R</p>
+					<p class="">Commercial Manager</p>
 				</div>
 			</div>
 			<div class="card">
@@ -194,7 +194,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Filipe Aoki</h2>
-					<p class="">A_R - Music Content Manager</p>
+					<p class="">A & R - Music Content Manager</p>
 				</div>
 			</div>
 			<div class="card">
