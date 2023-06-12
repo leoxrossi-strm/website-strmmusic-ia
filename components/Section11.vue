@@ -194,7 +194,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Filipe Aoki</h2>
-					<p class="">A&R</p>
+					<p class="">Music Content Manager</p>
 				</div>
 			</div>
 			<div class="card">
