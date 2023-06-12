@@ -39,7 +39,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Sérgio Affonso</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Ex-CEO Warner Brasil | Board Member
+								Ex-CEO Warner Brasil & Board Member
 							</p>
 						</div>
 					</div>
@@ -64,8 +64,10 @@
 							/>
 						</div>
 						<div>
-							<h2 class="pl-4 text-2xl font-bold lg:text-xl">KondZilla</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">Investidor & Board Member</p>
+							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Konrad Dantas</h2>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
+								Kondzilla | Investidor & Board Member
+							</p>
 						</div>
 					</div>
 					<div>
@@ -174,14 +176,18 @@
 							/>
 						</div>
 						<div>
-							<h2 class="pl-4 text-2xl font-bold lg:text-xl">John Doe</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">lorem ipsum</p>
+							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Guilherme Veiga</h2>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
+								Jive | Investidor & Board Member
+							</p>
 						</div>
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ultrices purus,
-							non viverra nibh. Sed vehicula nibh massa, at sollicitudin massa auctor nec.
+							Guilherme Veiga Campos é formado em administração de empresas pela FGV e atua como
+							sócio na Jive Investments, focado em estratégias de crédito direcionais e operações
+							financeiras especiais. Anteriormente, trabalhou com reestruturação na Alvarez & Marsal
+							(A&M).
 						</p>
 					</div>
 				</div>
@@ -200,7 +206,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Rodrigo Ribeiro</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Jive Investidor & Board Member
+								Jive | Investidor & Board Member
 							</p>
 						</div>
 					</div>
@@ -253,7 +259,7 @@
 						</div>
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Rafael Lopes</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">COO Board Member</p>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">COO & Board Member</p>
 						</div>
 					</div>
 					<div>
@@ -278,7 +284,7 @@
 						</div>
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Leonardo Rossi</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">CTO Board Member</p>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">CTO & Board Member</p>
 						</div>
 					</div>
 					<div>

@@ -227,7 +227,7 @@
 			</div>
 			<div class="card">
 				<nuxt-img
-					src="images/webp/noImg.webp"
+					src="images/webp/grid32.webp"
 					alt="grid com diversas pessoas"
 					class="card-img"
 					width="240"
@@ -236,6 +236,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Heigor Martins</h2>
+					<p class="">Label Manager</p>
 				</div>
 			</div>
 			<div class="card">
@@ -268,7 +269,7 @@
 			</div>
 			<div class="card">
 				<nuxt-img
-					src="images/webp/noImg.webp"
+					src="images/webp/grid33.webp"
 					alt="grid com diversas pessoas"
 					class="card-img"
 					width="240"
@@ -277,7 +278,7 @@
 				/>
 				<div class="card-content">
 					<h2 class="font-CabinFont text-lg font-bold">Luciana Guerreiro</h2>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="">SDR</p>
 				</div>
 			</div>
 			<div class="card">

@@ -31,7 +31,13 @@
 				</li>
 				<li class="mr-5 flex cursor-pointer items-center pl-6">
 					<span> login</span>
-					<nuxt-img src="images/svg/iconLogin.svg" alt="login" class="ml-3" />
+					<nuxt-img
+						src="images/svg/iconLogin.svg"
+						alt="login"
+						class="ml-3"
+						width="16"
+						height="16"
+					/>
 				</li>
 			</ul>
 		</div>
