@@ -25,7 +25,7 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-x-6 gap-y-1 lg:grid lg:grid-cols-2 2xl:grid-cols-3">
-				<div class="mt-[74px] flex flex-col">
+				<!-- <div class="mt-[74px] flex flex-col">
 					<div class="flex items-center">
 						<div class="boxPicture">
 							<nuxt-img
@@ -50,7 +50,7 @@
 							a galley of type and scrambled it to make a type specimen book. It has
 						</p>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="mt-[74px] flex flex-col">
 					<div class="flex items-center">
@@ -80,8 +80,6 @@
 					</div>
 				</div>
 
-				<div class="md:hidden 2xl:block"></div>
-
 				<div class="mt-[74px] flex flex-col">
 					<div class="flex items-center">
 						<div class="boxPicture">
@@ -109,6 +107,7 @@
 						</p>
 					</div>
 				</div>
+				<div class="md:hidden 2xl:block"></div>
 				<div class="mt-[74px] flex flex-col">
 					<div class="flex items-center">
 						<div class="boxPicture">

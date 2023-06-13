@@ -12,7 +12,7 @@
 				</video>
 			</div>
 			<h1 class="titleHeader">
-				Tudo que uma <span class="block"> grande gravadora</span> poderia te oferecer
+				Acelere sua carreira com a inteligência artificial mais poderosa da música
 			</h1>
 			<h2 class="px-12 font-CabinFont lg:px-0 lg:text-2xl">
 				com a liberdade que só um artista <span class="block lg:inline-block"></span> independente
