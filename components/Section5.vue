@@ -23,13 +23,12 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento no Spotify</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Aumento de 250% dos ouvintes mensais no Spotify em 6 meses lançando com a Strm.
 						</p>
 					</div>
 				</div>
@@ -44,15 +43,15 @@
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
+							<p class="font-CabinFont text-2xl font-bold">Malta</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">Capa da Rock BR no YouTube Music</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Strm impulsiona Malta ao topo: Capa no YouTube Music conquistada com a ajuda da nossa
+							metodologia.
 						</p>
 					</div>
 				</div>
@@ -67,15 +66,15 @@
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
+							<p class="font-CabinFont text-2xl font-bold">O Juh</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">Primeira playlist editorial do Spotify</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Com a assistência da Strm, O Juh se consolida com sua primeira playlist editorial do
+							Spotify.
 						</p>
 					</div>
 				</div>
@@ -90,15 +89,15 @@
 				<div class="gradient-border">
 					<div class="gradient-box">
 						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
+							<p class="font-CabinFont text-2xl font-bold">Alex Cohen</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">+23% ouvintes mensais no Spotify</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Em 3 meses do primeiro lançamento com a Strm. Alex Cohen obteve um aumento de 23% em
+							ouvintes mensais no Spotify.
 						</p>
 					</div>
 				</div>
@@ -115,11 +114,11 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
 							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
 							de 5 lançamentos em playlists editoriais e segue em acendência.
 						</p>
@@ -138,11 +137,11 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
 							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
 							de 5 lançamentos em playlists editoriais e segue em acendência.
 						</p>
@@ -161,11 +160,11 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
 							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
 							de 5 lançamentos em playlists editoriais e segue em acendência.
 						</p>
@@ -184,11 +183,11 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-xl">+237% de crescimento</p>
+								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
 							</div>
 						</div>
 
-						<p class="break-lines px-6 pb-8 pt-2 text-primary">
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
 							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
 							de 5 lançamentos em playlists editoriais e segue em acendência.
 						</p>
