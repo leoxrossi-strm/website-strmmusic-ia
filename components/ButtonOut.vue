@@ -1,6 +1,7 @@
 <template>
 	<NuxtLink
 		:to="url"
+		target="_blank"
 		class="hvr flex items-center justify-between gap-2 rounded-[32px] border-2 border-primaryPurple bg-transparent px-6 py-3 font-CabinFont text-sm font-normal text-primary outline-none"
 	>
 		{{ text }}
@@ -17,7 +18,8 @@ const props = defineProps({
 	},
 	url: {
 		type: String,
-		default: '#',
+		default:
+			'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A&R',
 		required: true
 	}
 })

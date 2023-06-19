@@ -17,7 +17,7 @@ const props = defineProps({
 	},
 	url: {
 		type: String,
-		default: '#',
+		default: 'https://artists.strmmusic.com/quiz',
 		required: true
 	}
 })

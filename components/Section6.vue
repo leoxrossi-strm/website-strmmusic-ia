@@ -18,7 +18,7 @@
 				<span class="hidden lg:block">
 					<ButtonBg />
 				</span>
-				<ButtonOut text="Fale com seu A&R" url="#" />
+				<ButtonOut text="Fale com seu A&R" />
 			</div>
 		</div>
 		<video

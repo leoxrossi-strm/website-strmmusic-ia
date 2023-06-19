@@ -29,7 +29,7 @@
 			</div>
 			<span class="mt-2 hidden gap-4 lg:flex">
 				<ButtonBg />
-				<ButtonOut url="#" />
+				<ButtonOut />
 			</span>
 		</div>
 		<div class="black-retangle"></div>
