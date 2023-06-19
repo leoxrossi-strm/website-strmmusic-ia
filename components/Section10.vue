@@ -5,18 +5,18 @@
 		>
 			<div class="mt-[24px] flex flex-col">
 				<div class="flex items-center">
-					<div class="lg:hidden">
+					<!-- <div class="lg:hidden">
 						<div class="box">
 							<nuxt-img src="images/webp/soundwave.webp" alt="onda de som" width="54" height="54" />
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div class="flex flex-col">
-					<p class="pl-[68px] text-2xl font-bold leading-[33px] lg:pl-0 lg:text-5xl">
+					<p class="pl-[0px] text-2xl font-bold leading-[33px] lg:pl-0 lg:text-5xl">
 						Quem está por trás da Strm?
 					</p>
 					<p
-						class="pl-[68px] pt-2 font-CabinFont text-secondary lg:pl-0 lg:pt-5 lg:text-xl lg:leading-7"
+						class="pl-[0px] pt-2 font-CabinFont text-secondary lg:pl-0 lg:pt-5 lg:text-xl lg:leading-7"
 					>
 						Feito por pessoas que vivem e respiram a
 						<span class="lg:block"> música todos os dias</span>
@@ -25,33 +25,6 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-x-6 gap-y-1 lg:grid lg:grid-cols-2 2xl:grid-cols-3">
-				<!-- <div class="mt-[74px] flex flex-col">
-					<div class="flex items-center">
-						<div class="boxPicture">
-							<nuxt-img
-								src="images/webp/09.webp"
-								alt="membro da equipe"
-								width="97"
-								height="97"
-								loading="lazy"
-							/>
-						</div>
-						<div>
-							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Sérgio Affonso</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Ex-CEO Warner Brasil & Board Member
-							</p>
-						</div>
-					</div>
-					<div>
-						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-							the industry's standard dummy text ever since the 1500s, when an unknown printer took
-							a galley of type and scrambled it to make a type specimen book. It has
-						</p>
-					</div>
-				</div> -->
-
 				<div class="mt-[74px] flex flex-col">
 					<div class="flex items-center">
 						<div class="boxPicture">
@@ -167,7 +140,7 @@
 					<div class="flex items-center">
 						<div class="boxPicture">
 							<nuxt-img
-								src="images/webp/014.webp"
+								src="images/webp/22.webp"
 								alt="membro da equipe"
 								width="97"
 								height="97"
@@ -195,7 +168,7 @@
 					<div class="flex items-center">
 						<div class="boxPicture">
 							<nuxt-img
-								src="images/webp/014.webp"
+								src="images/webp/23.webp"
 								alt="membro da equipe"
 								width="97"
 								height="97"
@@ -400,13 +373,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="boxWave">
-				<nuxt-img
-					src="images/webp/soundwave.webp"
-					alt="ilustração"
-					class="absolute right-0 top-[56px] z-40 hidden w-[479px] 2xl:block"
-				/>
-			</div>
+			<video
+				playsinline
+				autoplay
+				muted
+				loop
+				class="absolute right-[30px] top-[134px] -z-10 hidden w-[440px] rounded-full lg:block"
+			>
+				<source src="/videos/waveVideo.mp4" type="video/mp4" />
+			</video>
 		</div>
 		<div class="bg"></div>
 	</section>

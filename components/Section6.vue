@@ -1,6 +1,6 @@
 <template>
 	<section class="relative w-full pt-24">
-		<div class="illustration mx-auto w-[80%] lg:max-w-[1440px] lg:pb-[174px] lg:pt-44">
+		<div class="mx-auto w-[80%] lg:max-w-[1440px] lg:pb-[174px] lg:pt-44">
 			<h2 class="font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]">
 				<span class="block"> Todos os serviços</span> que você precisa
 			</h2>
@@ -21,24 +21,26 @@
 				<ButtonOut text="Fale com seu A&R" url="#" />
 			</div>
 		</div>
-		<nuxt-img
-			src="images/webp/soundwave.webp"
-			alt="ilustração"
-			class="absolute right-[-190px] top-[35px] -z-10 lg:hidden"
-			width="340"
-			height="340"
-			loading="lazy"
+		<video
+			playsinline
+			autoplay
+			muted
+			loop
+			class="absolute right-[-170px] top-[18px] -z-10 w-[340px] rounded-full lg:hidden"
+		>
+			<source src="/videos/waveVideo.mp4" type="video/mp4" />
+		</video>
+
 		/>
+
+		<video
+			playsinline
+			autoplay
+			muted
+			loop
+			class="absolute right-[230px] top-[194px] -z-10 hidden w-[440px] rounded-full lg:block"
+		>
+			<source src="/videos/waveVideo.mp4" type="video/mp4" />
+		</video>
 	</section>
 </template>
-
-<style scoped>
-@media (min-width: 1280px) {
-	.illustration {
-		background-image: url('/images/webp/soundwave.webp');
-		background-repeat: no-repeat;
-		background-size: 430px;
-		background-position: 100% 42%;
-	}
-}
-</style>

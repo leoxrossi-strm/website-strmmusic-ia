@@ -1,9 +1,9 @@
 <template>
-	<section class="w-scree my-element relative mt-0 lg:mt-[210px]">
+	<section class="my-element relative mt-0 w-screen lg:mt-[210px]">
 		<div
 			class="mx-auto flex w-[80%] flex-col pb-16 pt-12 text-left lg:max-w-[1440px] lg:pb-40 lg:pt-40 lg:text-left"
 		>
-			<div class="flex items-center justify-center">
+			<!-- <div class="flex items-center justify-center">
 				<nuxt-img
 					src="images/webp/soundwave.webp"
 					alt="sound"
@@ -12,7 +12,9 @@
 					height="54"
 					loading="lazy"
 				/>
-			</div>
+
+				
+			</div> -->
 			<h2
 				class="relative z-50 pt-6 font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]"
 			>
@@ -41,14 +43,15 @@
 				<ButtonOut />
 			</div>
 		</div>
-		<nuxt-img
-			src="images/webp/soundwave.webp"
-			alt="sound"
-			class="absolute right-72 top-[104px] hidden lg:block"
-			width="451"
-			height="451"
-			loading="lazy"
-		/>
+		<video
+			playsinline
+			autoplay
+			muted
+			loop
+			class="absolute right-[230px] top-[134px] -z-10 hidden w-[440px] rounded-full lg:block"
+		>
+			<source src="/videos/waveVideo.mp4" type="video/mp4" />
+		</video>
 	</section>
 </template>
 
@@ -116,6 +119,7 @@
 		/* Optional properties */
 		background-repeat: no-repeat; /* Prevent the image from repeating */
 		background-size: cover; /* Resize the image to cover the entire element */
+		background-attachment: fixed;
 	}
 }
 </style>

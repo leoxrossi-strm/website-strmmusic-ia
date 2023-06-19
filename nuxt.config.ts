@@ -13,6 +13,34 @@ interface NuxtConfig {
 		useStylesheet?: boolean
 		api?: string
 	}
+	devtools: {
+		enabled: boolean
+		vscode: {}
+	}
+	i18n?: {
+		locales?: {
+			code: string
+			iso: string
+			file?: string
+			name?: string
+			domain?: string
+			host?: string
+			langDir?: string
+			strategy?: string
+			[url: string]: any
+		}[]
+		defaultLocale?: string
+		langDir?: string
+		strategy?: string
+		rootRedirect?: string
+		seo?: boolean
+		vueI18n?: {
+			fallbackLocale?: string
+			messages?: {
+				[locale: string]: any
+			}
+		}
+	}
 }
 
 export default defineNuxtConfig({
@@ -22,7 +50,8 @@ export default defineNuxtConfig({
 		'@nuxtjs/google-fonts',
 		'@nuxtjs/tailwindcss',
 		'nuxt-icon',
-		'nuxt-delay-hydration'
+		'nuxt-delay-hydration',
+		'@nuxtjs/i18n'
 	],
 
 	googleFonts: {
@@ -41,5 +70,10 @@ export default defineNuxtConfig({
 		// VS Code Server options
 		vscode: {}
 		// ...other options
+	},
+	i18n: {
+		vueI18n: './i18n.config.ts', // if you are using custom path, default
+		locales: ['en', 'es', 'pt'], // added 'pt-BR' to the list of locales
+		defaultLocale: 'pt' // set 'pt-BR' as the default locale
 	}
 })

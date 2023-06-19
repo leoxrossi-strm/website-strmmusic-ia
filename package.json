@@ -1,6 +1,7 @@
 {
 	"name": "nuxt-app",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
@@ -12,6 +13,7 @@
 		"@nuxt/devtools": "npm:@nuxt/devtools-edge@latest",
 		"@nuxt/image-edge": "^1.0.0-28089462.3520a62",
 		"@nuxtjs/google-fonts": "^3.0.1",
+		"@nuxtjs/i18n": "^8.0.0-beta.12",
 		"@nuxtjs/tailwindcss": "^6.7.0",
 		"@types/node": "^18",
 		"nuxt": "^3.5.2",

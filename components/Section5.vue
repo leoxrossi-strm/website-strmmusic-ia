@@ -15,8 +15,110 @@
 				<nuxt-img
 					src="images/webp/rapperUpScaler.webp"
 					alt="musicos"
-					class="w-[100%] pb-4"
+					class="rounded-[28px] pb-4"
 					loading="lazy"
+					width="344"
+					height="375"
+				/>
+				<div class="gradient-border">
+					<div class="gradient-box">
+						<div class="flex flex-col items-start px-6 pt-[22px]">
+							<p class="font-CabinFont text-2xl font-bold">Tubaína</p>
+							<div class="flex items-center pt-[8px]">
+								<p class="pr-4 font-CabinFont text-lg">Novidades da Semana do Spotify</p>
+							</div>
+						</div>
+
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							+47% de ouvintes mensais em seu primeiro lançamento com a Strm, pontuando na Novidades
+							da Semana do Spotify
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="mr-4 flex snap-start flex-col items-center">
+				<nuxt-img
+					src="images/webp/cantoraUpScaler.webp"
+					alt="musicos"
+					class="rounded-[28px] pb-4"
+					loading="lazy"
+					width="344"
+					height="375"
+				/>
+				<div class="gradient-border">
+					<div class="gradient-box">
+						<div class="flex flex-col items-start px-6 pt-[22px]">
+							<p class="font-CabinFont text-2xl font-bold">Sofi Frozza</p>
+							<div class="flex items-center pt-[8px]">
+								<p class="pr-4 font-CabinFont text-lg">Capa da Indie Brasil do Spotify</p>
+							</div>
+						</div>
+
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Com AI avançada e competência, a Strm impulsionou Sofi Frozza à capa da Indie Brasil
+							no Spotify.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="mr-4 flex snap-start flex-col items-center">
+				<nuxt-img
+					src="images/webp/sertanejoUpScaler.webp"
+					alt="musicos"
+					class="rounded-[28px] pb-4"
+					loading="lazy"
+					width="344"
+					height="375"
+				/>
+				<div class="gradient-border">
+					<div class="gradient-box">
+						<div class="flex flex-col items-start px-6 pt-[22px]">
+							<p class="font-CabinFont text-2xl font-bold">Talis e Welinton</p>
+							<div class="flex items-center pt-[8px]">
+								<p class="pr-4 font-CabinFont text-lg">+1M de streams em 30 dias</p>
+							</div>
+						</div>
+
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Em apenas 30 dias, a dupla alcançou incríveis +1M de streams nas plataformas graças à
+							Strm.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="mr-4 flex snap-start flex-col items-center">
+				<nuxt-img
+					src="images/webp/mbpUpscaler.webp"
+					alt="musicos"
+					class="rounded-[28px] pb-4"
+					loading="lazy"
+					width="344"
+					height="375"
+				/>
+				<div class="gradient-border">
+					<div class="gradient-box">
+						<div class="flex flex-col items-start px-6 pt-[22px]">
+							<p class="font-CabinFont text-2xl font-bold">AMARINA</p>
+							<div class="flex items-center pt-[8px]">
+								<p class="pr-4 font-CabinFont text-lg">Destaque no Pop Leve do Spotify</p>
+							</div>
+						</div>
+
+						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
+							Com a Colaboração da Strm, AMARINA conseguiu colocar 4 músicas simultâneas na playlist
+							Pop Leve do Spotify.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="mr-4 flex snap-start flex-col items-center">
+				<nuxt-img
+					src="images/webp/viguel.webp"
+					alt="musicos"
+					class="rounded-[28px] pb-4"
+					loading="lazy"
+					width="344"
+					height="375"
 				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
@@ -35,10 +137,12 @@
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
 				<nuxt-img
-					src="images/webp/cantoraUpScaler.webp"
+					src="images/webp/malta.webp"
 					alt="musicos"
-					class="w-[100%] pb-4"
+					class="rounded-[28px] pb-4"
 					loading="lazy"
+					width="344"
+					height="375"
 				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
@@ -58,10 +162,12 @@
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
 				<nuxt-img
-					src="images/webp/sertanejoUpScaler.webp"
+					src="images/webp/ojuh.webp"
 					alt="musicos"
-					class="w-[100%] pb-4"
+					class="rounded-[28px] pb-4"
 					loading="lazy"
+					width="344"
+					height="375"
 				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
@@ -81,10 +187,12 @@
 			</div>
 			<div class="mr-4 flex snap-start flex-col items-center">
 				<nuxt-img
-					src="images/webp/mbpUpscaler.webp"
+					src="images/webp/alex.webp"
 					alt="musicos"
-					class="w-[100%] pb-4"
+					class="rounded-[28px] pb-4"
 					loading="lazy"
+					width="344"
+					height="375"
 				/>
 				<div class="gradient-border">
 					<div class="gradient-box">
@@ -98,98 +206,6 @@
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
 							Em 3 meses do primeiro lançamento com a Strm. Alex Cohen obteve um aumento de 23% em
 							ouvintes mensais no Spotify.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img
-					src="images/webp/bandaUpScaler.webp"
-					alt="musicos"
-					class="w-[100%] pb-4"
-					loading="lazy"
-				/>
-				<div class="gradient-border">
-					<div class="gradient-box">
-						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
-							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
-							</div>
-						</div>
-
-						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img
-					src="images/webp/acusticoUpScaler.webp"
-					alt="musicos"
-					class="w-[100%] pb-4"
-					loading="lazy"
-				/>
-				<div class="gradient-border">
-					<div class="gradient-box">
-						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
-							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
-							</div>
-						</div>
-
-						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img
-					src="images/webp/estudioUpScaler.webp"
-					alt="musicos"
-					class="w-[100%] pb-4"
-					loading="lazy"
-				/>
-				<div class="gradient-border">
-					<div class="gradient-box">
-						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
-							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
-							</div>
-						</div>
-
-						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="mr-4 flex snap-start flex-col items-center">
-				<nuxt-img
-					src="images/webp/tocandoUpScaler.webp"
-					alt="musicos"
-					class="w-[100%] pb-4"
-					loading="lazy"
-				/>
-				<div class="gradient-border">
-					<div class="gradient-box">
-						<div class="flex flex-col items-start px-6 pt-[22px]">
-							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
-							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento</p>
-							</div>
-						</div>
-
-						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais
-							de 5 lançamentos em playlists editoriais e segue em acendência.
 						</p>
 					</div>
 				</div>

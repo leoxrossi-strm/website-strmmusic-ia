@@ -10,7 +10,7 @@
 			<nuxt-img
 				:src="item.imageSrc"
 				:alt="item.name"
-				class="pb-4"
+				class="rounded-[28px] pb-4"
 				width="289"
 				height="304"
 				loading="lazy"
@@ -43,64 +43,62 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, computed, reactive, watchEffect } from 'vue'
-
 const items = [
+	{
+		name: 'Tubaína',
+		growth: '',
+		growthText: 'Nov. da Semana do Spotify',
+		text: '+47% de ouvintes mensais em seu primeiro lançamento com a Strm, pontuando na Novidades da Semana do Spotify.',
+		imageSrc: 'images/webp/rapperUpScaler.webp'
+	},
+	{
+		name: 'Sofi Frozza',
+		growth: '',
+		growthText: 'Capa da Indie Brasil do Spotify',
+		text: 'Strm colabora e impulsiona Malta para Capa no YouTube Music conquistada com nossa AI e nossa metodologia.',
+		imageSrc: 'images/webp/cantoraUpScaler.webp'
+	},
+	{
+		name: 'Talis e Welinton',
+		growth: '',
+		growthText: '+1M de streams em 30 dias',
+		text: 'Em apenas 30 dias, Talis e Welinton alcançaram incríveis +1M de streams nas plataformas graças à Strm.',
+		imageSrc: 'images/webp/sertanejoUpScaler.webp'
+	},
+	{
+		name: 'AMARINA',
+		growth: '',
+		growthText: 'Dest. no Pop Leve do Spotify',
+		text: 'Com a Colaboração da Strm, AMARINA conseguiu colocar 4 músicas simultâneas na playlist Pop Leve do Spotify.',
+		imageSrc: 'images/webp/mbpUpscaler.webp'
+	},
 	{
 		name: 'Viguel',
 		growth: '+237%',
 		growthText: 'de crescimento',
-		text: 'Aumento de 250% dos ouvintes mensais no Spotify em 6 meses lançando com a Strm.',
-		imageSrc: 'images/webp/rapperUpScaler.webp'
+		text: 'Aumento de 250% dos ouvintes mensais no Spotify em apenas 6 meses lançando com a colaboração Strm.',
+		imageSrc: 'images/webp/viguel.webp'
 	},
 	{
 		name: 'Malta',
 		growth: '',
-		growthText: 'Capa Rock BR no YouTube Music',
-		text: 'Strm impulsiona Malta para Capa no YouTube Music conquistada com a ajuda da nossa metodologia.',
-		imageSrc: 'images/webp/cantoraUpScaler.webp'
+		growthText: 'Capa no YouTube Music',
+		text: 'Strm impulsiona Malta a Capa da Rock BR no YouTube Music conquistada com a ajuda da nossa metodologia.',
+		imageSrc: 'images/webp/malta.webp'
 	},
 	{
 		name: 'O Juh',
 		growth: '',
-		growthText: '1ª playlist editorial do Spotify',
-		text: 'Com a assistência da Strm, O Juh se consolida com sua primeira playlist editorial do Spotify.',
-		imageSrc: 'images/webp/sertanejoUpScaler.webp'
+		growthText: 'Playlist editorial do Spotify',
+		text: 'Com a assistência da Strm, OJuh se consolidou e entrou em sua primeira playlist editorial do Spotify.',
+		imageSrc: 'images/webp/ojuh.webp'
 	},
 	{
 		name: 'Alex Cohen',
-		growth: '',
-		growthText: '+23% ouvintes no Spotify',
-		text: 'Em 3 meses do com a Strm. Alex Cohen obteve aumento de 23% em ouvintes mensais no Spotify.',
-		imageSrc: 'images/webp/mbpUpscaler.webp'
-	},
-	{
-		name: 'Outro Viguel',
-		growth: '+150%',
-		growthText: 'de crescimento',
-		text: 'Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais de 5 lançamentos em playlists editoriais e segue em acendência.',
-		imageSrc: 'images/webp/bandaUpScaler.webp'
-	},
-	{
-		name: 'Outro Viguel',
-		growth: '+150%',
-		growthText: 'de crescimento',
-		text: 'Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais de 5 lançamentos em playlists editoriais e segue em acendência.',
-		imageSrc: 'images/webp/acusticoUpScaler.webp'
-	},
-	{
-		name: 'Outro Viguel',
-		growth: '+150%',
-		growthText: 'de crescimento',
-		text: 'Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais de 5 lançamentos em playlists editoriais e segue em acendência.',
-		imageSrc: 'images/webp/estudioUpScaler.webp'
-	},
-	{
-		name: 'Outro Viguel',
-		growth: '+150%',
-		growthText: 'de crescimento',
-		text: 'Viguel entrou na Strm, e cresceu mais de 237% sua audiência no digital, emplacou mais de 5 lançamentos em playlists editoriais e segue em acendência.',
-		imageSrc: 'images/webp/tocandoUpScaler.webp'
+		growth: '+23%',
+		growthText: 'de ouvintes mensais',
+		text: 'Em 3 meses do primeiro lançamento com a Strm. Alex Cohen obteve aumento de 23% em ouvintes mensais no Spotify.',
+		imageSrc: 'images/webp/alex.webp'
 	}
 ]
 

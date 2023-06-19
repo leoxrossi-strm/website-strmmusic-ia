@@ -1,6 +1,5 @@
-t
 <template>
-	<section class="w-scree my-element mt-[40px] lg:mt-[210px]">
+	<section class="my-element mt-[40px] w-screen lg:mt-[210px]">
 		<div class="mx-auto w-[80%] lg:w-[71%]">
 			<div
 				class="flex flex-col items-start justify-start pt-10 text-start lg:items-center lg:justify-center lg:pb-[243px] lg:pt-[230px] lg:text-center"
@@ -108,6 +107,7 @@ t
 		/* Optional properties */
 		background-repeat: no-repeat; /* Prevent the image from repeating */
 		background-size: cover; /* Resize the image to cover the entire element */
+		background-attachment: fixed;
 	}
 }
 </style>

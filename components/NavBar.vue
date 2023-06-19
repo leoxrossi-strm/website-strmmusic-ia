@@ -12,6 +12,37 @@
 			<ButtonBg class="mr-9 h-auto w-auto" />
 		</div>
 		<div class="mr-3 hidden h-[76px] items-center lg:flex">
+			<div class="relative inline-block text-left">
+				<!-- <div>
+					<select
+						v-model="locale"
+						class="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+					>
+						<option value="pt">Português</option>
+						<option value="en">English</option>
+						<option value="es">Español</option>
+					</select>
+				</div> -->
+
+				<div
+					class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+					role="menu"
+					aria-orientation="vertical"
+					aria-labelledby="menu-button"
+					tabindex="-1"
+				>
+					<!-- <div class="py-1" role="none">
+						<p
+							class="block px-4 py-2 text-sm text-gray-700"
+							role="menuitem"
+							tabindex="-1"
+							id="menu-item-0"
+						>
+							{{ $t('welcome') }}
+						</p>
+					</div> -->
+				</div>
+			</div>
 			<ul class="items-center font-CabinFont text-primary lg:flex">
 				<li>
 					<a href="#" class="pl-12 text-[14px]">História</a>
@@ -94,7 +125,7 @@
 </template>
 
 <script setup>
-import { ref } from '@vue/runtime-core'
+// const { locale } = useI18n()
 
 const menuOpen = ref(false)
 
