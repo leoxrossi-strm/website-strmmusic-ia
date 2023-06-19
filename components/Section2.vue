@@ -62,8 +62,6 @@
 			<source src="/videos/waveVideo.mp4" type="video/mp4" />
 		</video>
 
-		/>
-
 		<video
 			playsinline
 			autoplay
@@ -73,7 +71,5 @@
 		>
 			<source src="/videos/waveVideo.mp4" type="video/mp4" />
 		</video>
-
-		/>
 	</section>
 </template>
