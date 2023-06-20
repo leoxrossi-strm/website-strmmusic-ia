@@ -19,7 +19,7 @@ const props = defineProps({
 	url: {
 		type: String,
 		default:
-			'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A&R',
+			'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A%26R',
 		required: true
 	}
 })

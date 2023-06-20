@@ -93,7 +93,7 @@
 							/>
 						</div>
 						<div>
-							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Fabi Fakri</h2>
+							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Fabio Fakri</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
 								Futurum Capital | F&S | Investidor <span class="block"> & Board Member</span>
 							</p>
