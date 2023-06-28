@@ -12,11 +12,11 @@
 				</video>
 			</div>
 			<h1 class="titleHeader">
-				Acelere sua carreira com a inteligência artificial mais poderosa da música
+				{{ $t('strm_accelerate_career') }}
 			</h1>
 			<h2 class="px-12 font-CabinFont lg:px-0 lg:text-2xl">
-				com a liberdade que só um artista <span class="block lg:inline-block"></span> independente
-				pode ter.
+				{{ $t('strm_independent_artist') }}<span class="block lg:inline-block"></span>
+				{{ $t('strm_independent_artist_2') }}
 			</h2>
 
 			<div class="mt-5 flex flex-col gap-6 px-12">

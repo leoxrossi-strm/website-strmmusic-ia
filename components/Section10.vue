@@ -13,13 +13,15 @@
 				</div>
 				<div class="flex flex-col">
 					<p class="pl-[0px] text-2xl font-bold leading-[33px] lg:pl-0 lg:text-5xl">
-						Quem está por trás da Strm?
+						{{ $t('strm_behind_strm') }}
 					</p>
 					<p
 						class="pl-[0px] pt-2 font-CabinFont text-secondary lg:pl-0 lg:pt-5 lg:text-xl lg:leading-7"
 					>
-						Feito por pessoas que vivem e respiram a
-						<span class="lg:block"> música todos os dias</span>
+						{{ $t('strm_people_breathe_music') }}
+						<span class="lg:block">
+							{{ $t('strm_people_breathe_music_2') }}
+						</span>
 					</p>
 				</div>
 			</div>
@@ -45,10 +47,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Em 2018, KondZilla foi eleito pela Forbes como um dos 30 jovens mais influentes do
-							Brasil com menos de 30 anos. Ele também é um defensor da diversidade e inclusão na
-							indústria da música e tem trabalhado para criar oportunidades para artistas de
-							comunidades carentes.
+							{{ $t('strm_konrad_dantas') }}
 						</p>
 					</div>
 				</div>
@@ -73,10 +72,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Eliane Dias é uma das fundadoras da Boogie Naipe, gravadora independente brasileira
-							responsável por lançar artistas como Racionais MC's, Mano Brown, Criolo, Emicida,
-							entre outros. Eliane também é conhecida por defender a diversidade no universo da
-							música.
+							{{ $t('strm_elliane_boogie') }}
 						</p>
 					</div>
 				</div>
@@ -101,10 +97,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Fábio Fakri é um dos fundadores da Futurum Capital e empresário da dupla Fernando e
-							Sorocaba, ficou conhecido no mercado da música por lançar artistas como Luan Santana,
-							Marcos e Belutti, Thaeme e Thiago, Michel Teló entre outros artistas da cena
-							Sertaneja.
+							{{ $t('strm_fabi_fakri') }}
 						</p>
 					</div>
 				</div>
@@ -129,9 +122,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Henrique Portugal é integrante e co-fundador da banda Skank, um dos principais
-							representantes do pop rock brasileiro. HP também é produtor musical e trabalhou com
-							bandas como Jota Quest, Tianastácia e Zeca Baleiro.
+							{{ $t('strm_henrique_portugal') }}
 						</p>
 					</div>
 				</div>
@@ -156,10 +147,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Guilherme Veiga Campos é formado em administração de empresas pela FGV e atua como
-							sócio na Jive Investments, focado em estratégias de crédito direcionais e operações
-							financeiras especiais. Anteriormente, trabalhou com reestruturação na Alvarez & Marsal
-							(A&M).
+							{{ $t('strm_guilherme_veiga') }}
 						</p>
 					</div>
 				</div>
@@ -184,10 +172,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Rodrigo Ribeiro, administrador de empresas e advogado, trabalha no time de Special
-							Opportunities da Jive Investments, uma gestora de investimentos alternativos com
-							plataforma integrada de recuperação de créditos. Passou pelo Bank of America Merril
-							Lynch e Ambev.
+							{{ $t('strm_rodrigo_ribeiro') }}
 						</p>
 					</div>
 				</div>
@@ -210,10 +195,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							João Teixeira é Co-founder da Certsys, com vasta experiência na indústria de
-							tecnologia, passou por empresas como HP, Symantec, Veritas. Formado em Engenharia de
-							Computação pela USP, com Pós-Graduação em Marketing pelo Insper e cursos de educação
-							executiva em Harvard e Columbia Business School.
+							{{ $t('strm_joao_teixeira') }}
 						</p>
 					</div>
 				</div>
@@ -236,10 +218,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Desde 2007 atuando no mercado musical, Rafael Pereira Lopes acumulou uma experiência
-							plural, com passagens por estúdios, consultorias de carreira, selos e empresas de
-							tecnologia, como a ByteDance, se especializando em Inteligência de Dados aplicada à
-							música.
+							{{ $t('strm_rafael_lopes') }}
 						</p>
 					</div>
 				</div>
@@ -261,10 +240,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Com 30 anos de experiência em software, Leonardo Rossi liderou projetos críticos nos
-							setores de energia, mineração, finanças, telecomunicações, marketing e entretenimento.
-							Recentemente, seu foco tem se voltado para machine learning, análise de dados, big
-							data e computação em nuvem.
+							{{ $t('strm_leonardo_rossi') }}
 						</p>
 					</div>
 				</div>
@@ -289,9 +265,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Conrado Grandino é baixista e fundador da banda NX Zero, uma das bandas de maior
-							sucesso no cenário rock brasileiro. Além de participar de diversas produções como
-							diretor artístico de artistas como Fiuk, Zeeba, Sunflower Jam, Luanna e Gabriel Peri.
+							{{ $t('strm_caco_grandino') }}
 						</p>
 					</div>
 				</div>
@@ -314,10 +288,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Empreendedor em série, Guto possuí mais de 15 anos de experiência na área comercial e
-							7 anos no marketing digital, se especializou em estruturar máquinas comerciais
-							complexas para diversos nichos de mercado com estratégias de outbound e inbound no
-							Facebook, Instagram, Google e Tiktok.
+							{{ $t('strm_guto_consentino') }}
 						</p>
 					</div>
 				</div>
@@ -340,9 +311,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Mais de 20 anos de experiência como Publicitário, Designer e Gerente de Produto com
-							foco em experiência do usuário e produtos digitais. Desenvolveu produtos globais com
-							mais de 1 bilhão de usuários para o Google, Gympass e outras BigTechs.
+							{{ $t('strm_thomas_camargo') }}
 						</p>
 					</div>
 				</div>
@@ -365,10 +334,7 @@
 					</div>
 					<div>
 						<p class="pt-5 font-CabinFont text-lg leading-6 text-secondary">
-							Mais de 30 anos de experiência na Música. Atuando como advogado, professor e consultor
-							de negócios do setor do entretenimento, com premiações, como certificados de platina e
-							diamante. É autor do livro "Saindo da garagem: música e business", lançado pela
-							editora Atlas em 2015.
+							{{ $t('strm_rodrigo_kuster') }}
 						</p>
 					</div>
 				</div>

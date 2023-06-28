@@ -12,13 +12,11 @@
 const props = defineProps({
 	text: {
 		type: String,
-		default: 'Ouse Testar',
-		required: true
+		default: 'Ouse Testar'
 	},
 	url: {
 		type: String,
-		default: 'https://artists.strmmusic.com/quiz',
-		required: true
+		default: 'https://artists.strmmusic.com/quiz'
 	}
 })
 </script>

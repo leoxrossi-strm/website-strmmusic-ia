@@ -16,14 +16,12 @@
 				<h2
 					class="pt-6 font-CabinFont text-2xl font-bold leading-[34px] lg:pt-8 2xl:text-5xl 2xl:leading-[58px]"
 				>
-					<span class="2xl:block">Nossa AI absorve conhecimento em tempo real de mais</span> de
-					<span class="xl:text-primaryPurple">
-						1,5 milhões de artistas e 100 milhões de faixas</span
-					>
+					<span class="2xl:block">{{ $t('strm_ai_knowledge') }}</span>
+					<span class="xl:text-primaryPurple"> {{ $t('strm_ai_knowledge_2') }}</span>
 				</h2>
 				<p class="pt-4 font-CabinFont text-lg text-secondary xl:text-2xl xl:leading-[34px]">
-					nas principais plataformas de streaming de música
-					<span class="xl:block"> e redes sociais.</span>
+					{{ $t('strm_ai_knowledge_3') }}
+					<span class="xl:block"> {{ $t('strm_ai_knowledge_4') }}</span>
 				</p>
 				<div class="flex pb-24 pt-[48px] xl:pt-7">
 					<nuxt-img

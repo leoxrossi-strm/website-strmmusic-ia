@@ -5,7 +5,7 @@
 				<nuxt-img :src="icon" alt="ícone" loading="lazy" width="20" height="20" />
 				<div class="flex items-center pb-[8px]">
 					<div :class="status == 'Disponível agora' ? 'avaialable' : 'development'">
-						<p class="pr-4 font-CabinFont text-sm font-bold">{{ status }}</p>
+						<p class="pr-4 font-CabinFont text-sm font-bold">{{ $t(status) }}</p>
 					</div>
 					<div>
 						<nux-img
@@ -19,29 +19,28 @@
 				</div>
 			</div>
 			<h2 class="pl-4 pt-0 font-CabinFont text-xl font-bold lg:pb-[8px] lg:pt-[14px]">
-				{{ title }}
+				{{ $t(title) }}
 			</h2>
-			<p class="mt-3 pb-8 pl-4 pr-2 text-secondary sm:mt-3">{{ text }}</p>
+			<p class="mt-3 pb-8 pl-4 pr-2 text-secondary sm:mt-3">{{ $t(text) }}</p>
 		</div>
 	</div>
 </template>
 <script setup>
 const props = defineProps({
 	icon: {
-		type: String,
-		
+		type: String
 	},
 	status: {
-		type: String,
-		
+		type: String
 	},
 	title: {
-		type: String,
-		
+		type: String
+	},
+	strm_available_now: {
+		type: String
 	},
 	text: {
-		type: String,
-		
+		type: String
 	}
 })
 </script>

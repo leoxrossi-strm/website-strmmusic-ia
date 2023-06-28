@@ -35,24 +35,23 @@
 					<li class="flex items-start">
 						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
-							<span class="font-bold"> Email:</span> distro@strm.com.br com SLA de 24hs
+							<span class="font-bold"> {{ $t('strm_email') }}</span>
+							{{ $t('strm_email_description') }}
 						</p>
 					</li>
 
 					<li class="flex items-start pt-6">
 						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
-							<span class="font-bold"> Chat:</span>Disponível de segunda a sexta das 9:00 às 12:00hs
-							e das 13:30 às 17:00hs
+							<span class="font-bold"> {{ $t('strm_chat') }}</span
+							>{{ $t('strm_chat_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
 						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
-							<span class="font-bold"> Pitching editorial:</span> Pitching nas lojas de música com
-							critério prévio Strm Distro no Spotify, Apple Music, Deezer, Amazon Music, Resso e
-							Youtube Music, através de envio das informações necessárias via preenchimento de
-							formulário, com no mínimo 21 dias de antecedência a data de lançamento.
+							<span class="font-bold">{{ $t('strm_editorial_pitching') }}</span>
+							{{ $t('strm_editorial_pitching_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-4">
@@ -63,17 +62,11 @@
 							height="18"
 							loading="lazy"
 						/>
-						<p class="pl-2"><span class="font-bold"> Strm for labels:</span> Acesso premium</p>
-					</li>
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							width="18"
-							height="18"
-							loading="lazy"
-						/>
-						<p class="pl-2"><span class="font-bold"> Strm for artists:</span> Acesso premium</p>
+
+						<p class="pl-2">
+							<span class="font-bold"> {{ $t('strm_strm_for_labels') }}</span>
+							{{ $t('strm_strm_for_labels_description') }}
+						</p>
 					</li>
 					<li class="flex items-start pt-6">
 						<nuxt-img
@@ -84,8 +77,21 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Diagnóstico de carreira Strm:</span> Acesso a 2 diagnósticos
-							de carreira gratuito por ano
+							<span class="font-bold"> Strm for artists:</span>
+							{{ $t('strm_strm_for_labels_description') }}
+						</p>
+					</li>
+					<li class="flex items-start pt-6">
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
+						<p class="pl-2">
+							<span class="font-bold"> {{ $t('strm_strm_career_diagnosis') }} </span>
+							{{ $t('strm_strm_career_diagnosis_description') }}
 						</p>
 					</li>
 				</ul>
@@ -131,7 +137,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Email:</span> distro@strm.com.br com SLA de 24hs
+							<span class="font-bold"> {{ $t('strm_email') }}</span>
+							{{ $t('strm_email_description') }}
 						</p>
 					</li>
 
@@ -144,8 +151,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Chat:</span> Disponível de segunda a sexta das 9:00 às
-							12:00hs e das 13:30 às 17:00hs
+							<span class="font-bold"> {{ $t('strm_chat') }}</span>
+							{{ $t('strm_chat_description') }}
 						</p>
 					</li>
 
@@ -158,8 +165,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Whatsapp:</span> Contato direto via whatsapp com um Label
-							Manager Strm
+							<span class="font-bold"> {{ $t('strm_whatsapp') }} </span>
+							{{ $t('strm_whatsapp_description') }}
 						</p>
 					</li>
 
@@ -172,7 +179,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Eventos:</span> Palestras, workshops e eventos exclusivos Strm
+							<span class="font-bold">{{ $t('strm_events') }}</span>
+							{{ $t('strm_events_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -184,8 +192,10 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Reuniões estratégicas:</span> Reuniões online com a equipe de
-							MKT da Strm para alinhamento do plano estratégico de futuros lançamentos.
+							<span class="font-bold">
+								{{ $t('strm_strategic_meetings') }}
+							</span>
+							{{ $t('strm_strategic_meetings_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -197,10 +207,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Pitching editorial:</span> Pitching nas lojas de música com
-							critério prévio Strm Distro no Spotify, Apple Music, Deezer, Amazon Music, Resso e
-							Youtube Music, através de envio das informações necessárias via preenchimento de
-							formulário, com no mínimo 21 dias de antecedência a data de lançamento.
+							<span class="font-bold">{{ $t('strm_editorial_pitching') }}</span>
+							{{ $t('strm_editorial_pitching_description') }}
 						</p>
 					</li>
 
@@ -213,9 +221,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Pitching 2ID:</span> Pitching para 2ID, para veiculação do
-							lançamento em mais de 3.500 lojas físicas de grandes marcas, saiba mais em
-							www.2id.com.br
+							<span class="font-bold"> Pitching 2ID:</span>
+							{{ $t('strm_pitching_2id_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-4">
@@ -226,7 +233,10 @@
 							height="18"
 							loading="lazy"
 						/>
-						<p class="pl-2"><span class="font-bold"> Strm for labels:</span> Acesso premium</p>
+						<p class="pl-2">
+							<span class="font-bold"> {{ $t('strm_strm_for_labels') }}</span>
+							{{ $t('strm_strm_for_labels_description') }}
+						</p>
 					</li>
 
 					<li class="flex items-start pt-6">
@@ -237,7 +247,10 @@
 							height="18"
 							loading="lazy"
 						/>
-						<p class="pl-2"><span class="font-bold"> Strm for artists:</span> Acesso premium</p>
+						<p class="pl-2">
+							<span class="font-bold"> Strm for artists:</span>
+							{{ $t('strm_strm_for_labels_description') }}
+						</p>
 					</li>
 					<li class="flex items-start pt-6">
 						<nuxt-img
@@ -248,8 +261,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Diagnóstico de carreira Strm:</span> Acesso a 2 diagnósticos
-							de carreira gratuito por ano
+							<span class="font-bold"> {{ $t('strm_strm_career_diagnosis') }}</span>
+							{{ $t('strm_strm_career_diagnosis_description') }}
 						</p>
 					</li>
 				</ul>
@@ -315,7 +328,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Email:</span> distro@strm.com.br com SLA de 24hs
+							<span class="font-bold"> {{ $t('strm_email') }}</span>
+							{{ $t('strm_email_description') }}
 						</p>
 					</li>
 
@@ -328,8 +342,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Chat:</span> Disponível de segunda a sexta das 9:00 às
-							12:00hs e das 13:30 às 17:00hs
+							<span class="font-bold"> {{ $t('strm_chat') }}</span>
+							{{ $t('strm_chat_description') }}
 						</p>
 					</li>
 
@@ -342,8 +356,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Whatsapp:</span> Contato direto via whatsapp com um Label
-							Manager Strm
+							<span class="font-bold">{{ $t('strm_whatsapp') }}</span>
+							{{ $t('strm_whatsapp_description') }}
 						</p>
 					</li>
 
@@ -356,8 +370,10 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Time especial Distro:</span> Reuniões online com a equipe de
-							MKT da Strm para alinhamento do plano estratégico de futuros lançamentos. Strm
+							<span class="font-bold">
+								{{ $t('strm_strm_special_team') }}
+							</span>
+							{{ $t('strm_strm_special_team_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -369,8 +385,10 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">Reunião Presencial:</span> Reunião Presencial: Acesso ao nosso
-							escritório da Vila Madalena para reuniões de planejamento e audições. lançamentos.
+							<span class="font-bold">
+								{{ $t('strm_in_Person_Meeting') }}
+							</span>
+							{{ $t('strm_in_Person_Meeting_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -382,38 +400,10 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Pitching editorial:</span> Pitching nas lojas de música com
-							critério prévio Strm Distro no Spotify, Apple Music, Deezer, Amazon Music, Resso e
-							Youtube Music, através de envio das informações necessárias via preenchimento de
-							formulário, com no mínimo 21 dias de antecedência a data de lançamento.
-						</p>
-					</li>
-
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							width="18"
-							height="18"
-							loading="lazy"
-						/>
-						<p class="pl-2">
-							<span class="font-bold"> Pitching 2ID:</span> Pitching para 2ID, para veiculação do
-							lançamento em mais de 3.500 lojas físicas de grandes marcas, saiba mais em
-							www.2id.com.br
-						</p>
-					</li>
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							width="18"
-							height="18"
-							loading="lazy"
-						/>
-						<p class="pl-2">
-							<span class="font-bold"> Gestão de tráfego:</span> Google Ads para o produto
-							audiovisual do lançamento
+							<span class="font-bold">
+								{{ $t('strm_editorial_pitching') }}
+							</span>
+							{{ $t('strm_editorial_pitching_description') }}
 						</p>
 					</li>
 
@@ -426,8 +416,23 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Canais de música:</span>Envio de video-clipes para os canais
-							de música Multishow, BIS, Music Box Brazil e MTV
+							<span class="font-bold"> Pitching 2ID:</span>
+							{{ $t('strm_pitching_2id_description') }}
+						</p>
+					</li>
+					<li class="flex items-start pt-6">
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
+						<p class="pl-2">
+							<span class="font-bold">
+								{{ $t('strm_traffic_management') }}
+							</span>
+							{{ $t('strm_traffic_management_description') }}
 						</p>
 					</li>
 
@@ -440,8 +445,26 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Relações Públicas:</span> Trabalho focado de RP nos
-							principais meios de comunicação do segmento musical
+							<span class="font-bold">
+								{{ $t('strm_music_channels') }}
+							</span>
+							{{ $t('strm_music_channels_description') }}
+						</p>
+					</li>
+
+					<li class="flex items-start pt-6">
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							width="18"
+							height="18"
+							loading="lazy"
+						/>
+						<p class="pl-2">
+							<span class="font-bold">
+								{{ $t('strm_public_relations') }}
+							</span>
+							{{ $t('strm_public_relations_description') }}
 						</p>
 					</li>
 
@@ -453,7 +476,10 @@
 							height="18"
 							loading="lazy"
 						/>
-						<p class="pl-2"><span class="font-bold"> Strm for labels:</span> Acesso premium</p>
+						<p class="pl-2">
+							<span class="font-bold"> {{ $t('strm_strm_for_labels') }}</span>
+							{{ $t('strm_strm_for_labels_description') }}
+						</p>
 					</li>
 
 					<li class="flex items-start pt-6">
@@ -464,7 +490,10 @@
 							height="18"
 							loading="lazy"
 						/>
-						<p class="pl-2"><span class="font-bold"> Strm for artists:</span> Acesso premium</p>
+						<p class="pl-2">
+							<span class="font-bold"> Strm for artists:</span>
+							{{ $t('strm_strm_for_labels_description') }}
+						</p>
 					</li>
 					<li class="flex items-start pt-6">
 						<nuxt-img
@@ -475,8 +504,8 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Diagnóstico de carreira Strm:</span> Acesso a 2 diagnósticos
-							de carreira gratuito por ano
+							<span class="font-bold"> {{ $t('strm_strm_career_diagnosis') }}</span>
+							{{ $t('strm_strm_career_diagnosis_description') }}
 						</p>
 					</li>
 				</ul>

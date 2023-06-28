@@ -13,16 +13,16 @@
 		</div>
 		<div class="mr-3 hidden h-[76px] items-center lg:flex">
 			<div class="relative inline-block text-left">
-				<!-- <div>
+				<div>
 					<select
 						v-model="locale"
 						class="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
 					>
 						<option value="pt">Português</option>
 						<option value="en">English</option>
-						<option value="es">Español</option>
+						<!-- <option value="es">Español</option> -->
 					</select>
-				</div> -->
+				</div>
 
 				<div
 					class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
@@ -45,23 +45,23 @@
 			</div>
 			<ul class="items-center font-CabinFont text-primary lg:flex">
 				<li>
-					<a href="#" class="pl-12 text-[14px]">História</a>
+					<a href="#" class="pl-12 text-[14px]"> {{ $t('history') }}</a>
 				</li>
 				<li>
-					<a href="#" class="pl-12 text-[14px]">Time</a>
+					<a href="#" class="pl-12 text-[14px]">{{ $t('team') }}</a>
 				</li>
 				<li>
-					<a href="#" class="pl-12 text-[14px]">Diagnóstico</a>
+					<a href="#" class="pl-12 text-[14px]">{{ $t('diagnosis') }} </a>
 				</li>
 				<li class="pl-6">
 					<a
 						href="#"
 						class="inline-block items-center rounded-[32px] border-2 border-primaryPurple bg-transparent px-4 py-3 font-CabinFont text-[14px] text-sm font-normal text-primary outline-none"
-						>Área do cliente</a
+						>{{ $t('client_area') }}</a
 					>
 				</li>
 				<li class="mr-5 flex cursor-pointer items-center pl-6">
-					<span> login</span>
+					<span> {{ $t('login') }} </span>
 					<nuxt-img
 						src="images/svg/iconLogin.svg"
 						alt="login"
@@ -98,14 +98,37 @@
 						:class="{ rotate: menuOpen }"
 					/>
 				</div>
+
+				<div>
+					<select
+						v-model="locale"
+						class="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+					>
+						<option value="pt">Português</option>
+						<option value="en">English</option>
+						<!-- <option value="es">Español</option> -->
+					</select>
+				</div>
+
 				<ul class="flex list-none flex-col items-center font-CabinFont font-normal">
 					<li class="pb-5 pt-[95px] text-lg text-white">
-						<a href="#" @click="toggleMenu">Planos</a>
+						<a href="#" @click="toggleMenu">{{ $t('strm_plans') }}</a>
 					</li>
-					<li class="py-5 text-lg text-white"><a href="#" @click="toggleMenu">Cases</a></li>
-					<li class="py-5 text-lg text-white"><a href="#" @click="toggleMenu">Serviços</a></li>
-					<li class="pt-5 text-lg text-white"><a href="#" @click="toggleMenu">Sobre a Strm</a></li>
+					<li class="py-5 text-lg text-white">
+						<a href="#" @click="toggleMenu">
+							{{ $t('strm_cases') }}
+						</a>
+					</li>
+					<li class="py-5 text-lg text-white">
+						<a href="#" @click="toggleMenu">
+							{{ $t('strm_services') }}
+						</a>
+					</li>
+					<li class="pt-5 text-lg text-white">
+						<a href="#" @click="toggleMenu">{{ $t('strm_about') }}</a>
+					</li>
 				</ul>
+
 				<div>
 					<ButtonBg class="my-6 mt-10" />
 					<ButtonOut />
@@ -114,7 +137,9 @@
 				<ul>
 					<li>
 						<a href="#" class="flex cursor-pointer items-center pt-10 font-CabinFont">
-							<span> login</span>
+							<span>
+								{{ $t('login') }}
+							</span>
 							<nuxt-img src="images/svg/iconLogin.svg" alt="login" class="ml-3" />
 						</a>
 					</li>
@@ -125,7 +150,7 @@
 </template>
 
 <script setup>
-// const { locale } = useI18n()
+const { locale } = useI18n()
 
 const menuOpen = ref(false)
 

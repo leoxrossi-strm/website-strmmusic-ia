@@ -13,14 +13,12 @@
 const props = defineProps({
 	text: {
 		type: String,
-		default: 'Fale com seu A&R',
-		required: true
+		default: 'Fale com seu A&R'
 	},
 	url: {
 		type: String,
 		default:
-			'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A%26R',
-		required: true
+			'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A%26R'
 	}
 })
 </script>

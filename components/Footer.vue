@@ -13,37 +13,59 @@
 					/>
 
 					<p class="hidden pt-6 font-CabinFont text-secondary lg:block lg:text-xl">
-						<span class="block"> A primeira empresa pensada primeiro</span> no artista.
+						<span class="block">
+							{{ $t('strm_strm_first_company') }}
+						</span>
+
+						{{ $t('strm_strm_first_company_2') }}
 					</p>
 				</div>
 				<div class="hidden lg:block">
-					<p class="font-CabinFont text-primaryPurple">Entenda</p>
+					<p class="font-CabinFont text-primaryPurple">
+						{{ $t('strm_getting_to_know') }}
+					</p>
 					<ul class="pt-3">
 						<li>
-							<a href="#" class="font-CabinFont text-lg">Planos</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_plans') }}
+							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Cases</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_cases') }}
+							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Serviços</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_services') }}
+							</a>
 						</li>
 					</ul>
 				</div>
 				<div class="hidden lg:block">
-					<p class="font-CabinFont text-primaryPurple">Empresa</p>
+					<p class="font-CabinFont text-primaryPurple">
+						{{ $t('strm_company') }}
+					</p>
 					<ul class="pt-3">
 						<li>
-							<a href="#" class="font-CabinFont text-lg">Sobre</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_about_us') }}
+							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Time</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_team') }}
+							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Política de Privacidade</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_privacy_policy') }}
+							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Termos de Uso</a>
+							<a href="#" class="font-CabinFont text-lg">
+								{{ $t('strm_company_terms_of_use') }}
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -68,7 +90,7 @@
 						<a
 							href="#"
 							class="inline-block items-center rounded-[32px] border-2 border-primaryPurple bg-transparent px-4 py-3 font-CabinFont text-[14px] text-sm font-normal text-primary outline-none"
-							>Área do cliente</a
+							>{{ $t('client_area') }}</a
 						>
 					</span>
 				</div>

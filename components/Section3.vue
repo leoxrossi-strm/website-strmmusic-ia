@@ -19,23 +19,25 @@
     </div>
     <div class="text-left lg:text-left pt-6">
       <p class="text-lg font-CabinFont text-primaryPurple lg:hidden">
-        Acelere sua música no digital
+        {{ $t('strm_accelerate_music')  }}
       </p>
       <h2 class="py-4 font-CabinFont font-bold text-2xl xl:text-5xl xl:leading-[67px]">
-        <span class="block 2xl:hidden">A Strm é a revolução</span>
+        <span class="block 2xl:hidden">{{$t('strm_digital_revolution') 
+          }}</span>
         <span class="hidden 2xl:block"
-          >A 
+          > {{ $t('strm_digital_revolutionA')  }}
           <span class="text-primaryPurple"> Strm</span>
-         é a revolução</span>
+         {{ $t('strm_digital_revolution_3')  }}
+          </span>
 
-        <span class="block 2xl:hidden">da música digital</span>
-        <span class="hidden 2xl:block">da música digital</span>
+        <span class="block 2xl:hidden">
+         {{ $t('strm_digital_revolution_2')   }}  
+        </span>
+        <span class="hidden 2xl:block"> {{ $t('strm_digital_revolution_2')   }} </span>
       </h2>
       <p class="text-lg font-CabinFont">
         <span class="2xl:block">
-          Utilizamos <span class="text-primaryPurple font-bold"> inteligência artificial</span> e ciência
-          de dados para adquirir um vasto conhecimento exclusivamente da música digital. E a partir disso
-          criamos um agente personalizado para artistas acelerarem suas carreiras no mundo digital.
+          {{ $t('strm_ai_data_science') }} <span class="text-primaryPurple font-bold"> {{ $t('strm_ai_data_science_2') }}</span> {{ $t('strm_ai_data_science_3') }}
         </span>
         <div class="flex flex-col items-start lg:flex-row pt-6 gap-4">
           <span class="lg:hidden">

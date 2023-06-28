@@ -43,11 +43,12 @@
 </template>
 
 <script setup>
+const { t } = useI18n()
 const items = [
 	{
 		name: 'Tubaína',
 		growth: '',
-		growthText: 'Nov. da Semana do Spotify',
+		growthText: t('strm_carousel_title_1'),
 		text: '+47% de ouvintes mensais em seu primeiro lançamento com a Strm, pontuando na Novidades da Semana do Spotify.',
 		imageSrc: 'images/webp/rapperUpScaler.webp'
 	},

@@ -6,18 +6,30 @@
 			<h2
 				class="relative z-50 font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]"
 			>
-				<span class="block"> Veja qual estágio de carreira</span> você está gratuitamente agora
+				<span class="block">
+					{{ $t('strm_career_stage') }}
+				</span>
+				{{ $t('strm_career_stage_2') }}
 			</h2>
 			<p class="relative z-50 pt-4 font-CabinFont text-base text-secondary lg:text-xl">
-				<span class="lg:block"> Entenda se você está elegível a distribuir com</span> a Strm e
-				receber investimentos de R$ 1 mil <span class="lg:block"> a R$ 20 milhões.</span>
+				<span class="lg:block">
+					{{ $t('strm_eligible_distribute') }}
+				</span>
+
+				{{ $t('strm_eligible_distribute_2') }}
+				<span class="lg:block">
+					{{ $t('strm_eligible_distribute_3') }}
+				</span>
 			</p>
 
 			<p class="relative z-50 pt-6 font-CabinFont text-base font-bold lg:text-xl">
 				<span class="block">
-					<span class="text-[#33CAE3]"> Apenas 100</span> vagas disponíveis para o</span
-				>
-				primeiro semestre de 2023
+					<span class="text-[#33CAE3]">
+						{{ $t('strm_100_openings') }}
+					</span>
+					{{ $t('strm_100_openings_2') }}
+				</span>
+				{{ $t('strm_100_openings_3') }}
 			</p>
 			<div class="relative z-50 flex flex-col items-start justify-start gap-4 pt-8 lg:flex-row">
 				<span class="lg:hidden">

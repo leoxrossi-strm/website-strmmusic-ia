@@ -25,30 +25,16 @@
 				</div>
 				<div>
 					<h2 class="pl-4 text-2xl font-bold lg:text-[40px]">Fernando Gabriel</h2>
-					<p class="pl-4 pt-4 font-CabinFont text-primaryPurple">Fundador & CEO</p>
+					<p class="pl-4 pt-4 font-CabinFont text-primaryPurple">Founder & CEO</p>
 				</div>
 			</div>
 			<div>
 				<p class="pt-5 font-CabinFont text-secondary" :class="toggleTruncateClass">
-					Fernando Gabriel iniciou sua carreira artistica como cantor e compositor em 2006 após
-					trancar a faculdade de engenharia na Unicamp, após 4 anos cantando profissionalmente o
-					lado engenheiro falou mais alto e passou para o outro lado da mesa criando sua produtora
-					artística, empresariando e gerindo carreiras de artistas de diversos gêneros musicais.
-					Nesta tragetória foi sócio e/ou parceiro de grandes nomes da musica como: Kamilla Fialho
-					(primeira empresária da Anitta - funk), Rafael Brahma (Melim - pop), Carlos Aristídes
-					(Xand Avião - forró), Rafael Cabral
-					<span class="block"> (Naiara Azzevedo - sertanejo).</span>
+					{{ $t('strm_fernando_gabriel') }}
 				</p>
 
 				<p v-show="toggleIsOpen" class="mt-4 font-CabinFont text-secondary">
-					Após anos de aprendizados e vivências em diversas regiões do Brasil montou uma consultoria
-					que, com um método próprio, captou mais de R$15 milhões de reais para artistas
-					independentes via club deals, em menos de 2 anos. O método foi tão bem sucedido que
-					motivou a construção da STRM com seus atuais sócios para democratizar o acesso a recursos
-					financeiros a artistas, diminuindo o abismo entre o mercado de capitais e a música. Hoje é
-					especialista em identificar, diagnosticar e aumentar a performance de ativos musicais,
-					combinando inteligência artificial e experiência prática de mercado para conectá-los ao
-					universo de investimentos por meio de tecnologia.
+					{{ $t('strm_fernando_gabriel_2') }}
 				</p>
 
 				<div @click="toggleOpen" class="z-50 flex cursor-pointer items-baseline">
@@ -81,29 +67,16 @@
 				<div>
 					<h2 class="pl-4 text-2xl font-bold lg:text-[40px]">Thiago Lobão</h2>
 					<p class="pl-4 pt-4 font-CabinFont text-primaryPurple">
-						Fundador & Diretor de investimentos
+						Founder & Chief Investment Officer
 					</p>
 				</div>
 			</div>
 			<div>
 				<p class="pt-5 font-CabinFont text-secondary" :class="toggleTruncateClass1">
-					Thiago Lobão iniciou sua carreira como consultor estratégico especializado em roadmaps
-					tecnológicos, com rápida migração para o mercado de Venture Capital, atuando como Sócio da
-					SP Ventures por 10 anos, participando ativamente das atividades para geração de valor em
-					mais de 30 investidas (Agtechs, SaaS, Fintechs e Healthtechs). Thiago foi peça-chave no
-					posicionamento da gestora como referência global em investimentos em Agtechs,
-					ultrapassando a marca de R$500 milhões sob gestão.
+					{{ $t('strm_thiago_lobo') }}
 				</p>
 				<p v-show="toggleIsOpen1" class="mt-4 font-CabinFont text-secondary">
-					Após seu ciclo na SP Ventures, Thiago fundou a Catarina Capital, gestora de investimentos
-					crossover, especializada em ativos de base tecnológica, liderando equipes nas áreas de
-					Venture Capital, Advisory, Private Equity e Public Equities. Thiago é apaixonado por
-					música e, ao longo de sua carreira, fundou o projeto Acelerarte, primeira aceleradora de
-					artistas no Brasil, trabalhando diretamente com mais de 400 artistas da cena independente.
-					Neste projeto, conheceu Fernando Gabriel, atual sócio na STRM, startup que revoluciona
-					atualmente a indústria da música através da aplicação de ciência de dados para
-					desenvolvimento de carreiras artísticas. Thiago é engenheiro pela USP, com MBA pela mesma
-					instituição e especialização em Inovação e Empreendedorismo em Stanford/EUA.
+					{{ $t('strm_thiago_lobo_2') }}
 				</p>
 				<div @click="toggleOpen1" class="relative z-50 flex cursor-pointer items-baseline">
 					<p class="text-lg text-primaryPurple">{{ toggleIsOpen1 ? 'Ler menos' : 'Ler mais' }}</p>

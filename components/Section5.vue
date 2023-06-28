@@ -3,10 +3,13 @@
 		<div
 			class="flex flex-col items-start justify-start text-left lg:items-center lg:justify-center lg:text-center"
 		>
-			<p class="font-CabinFont text-lg text-secondary lg:text-3xl">Somos tudo o que você precisa</p>
+			<p class="font-CabinFont text-lg text-secondary lg:text-3xl">
+				{{ $t('strm_music_succeed') }}
+			</p>
 			<p class="pt-4 font-CabinFont text-2xl lg:text-[40px]">
-				para <span class="text-primaryPurple"> decolar sua música</span>
-				<span class="block lg:inline-block">no digital.</span>
+				{{ $t('strm_music_succeed_2') }}
+				<span class="text-primaryPurple"> {{ $t('strm_music_succeed_3') }} </span>
+				<span class="block lg:inline"> {{ $t('strm_music_succeed_4') }}</span>
 			</p>
 		</div>
 
@@ -25,13 +28,12 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Tubaína</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">Novidades da Semana do Spotify</p>
+								<p class="pr-4 font-CabinFont text-lg">{{ $t('strm_spotify_news') }}</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							+47% de ouvintes mensais em seu primeiro lançamento com a Strm, pontuando na Novidades
-							da Semana do Spotify
+							{{ $t('strm_monthly_listeners') }}
 						</p>
 					</div>
 				</div>
@@ -50,13 +52,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Sofi Frozza</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">Capa da Indie Brasil do Spotify</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_indie_brasil') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Com AI avançada e competência, a Strm impulsionou Sofi Frozza à capa da Indie Brasil
-							no Spotify.
+							{{ $t('strm_collaboration') }}
 						</p>
 					</div>
 				</div>
@@ -75,13 +78,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Talis e Welinton</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+1M de streams em 30 dias</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_streams_30_days') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Em apenas 30 dias, a dupla alcançou incríveis +1M de streams nas plataformas graças à
-							Strm.
+							{{ $t('strm_streams_achievement') }}
 						</p>
 					</div>
 				</div>
@@ -100,13 +104,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">AMARINA</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">Destaque no Pop Leve do Spotify</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_spotify_soft_pop') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Com a Colaboração da Strm, AMARINA conseguiu colocar 4 músicas simultâneas na playlist
-							Pop Leve do Spotify.
+							{{ $t('strm_collaboration_amarina') }}
 						</p>
 					</div>
 				</div>
@@ -125,12 +130,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Viguel</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+237% de crescimento no Spotify</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_growth_237') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Aumento de 250% dos ouvintes mensais no Spotify em 6 meses lançando com a Strm.
+							{{ $t('strm_spotify_listeners') }}
 						</p>
 					</div>
 				</div>
@@ -149,13 +156,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Malta</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">Capa da Rock BR no YouTube Music</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_youtube_music_cover') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Strm impulsiona Malta ao topo: Capa no YouTube Music conquistada com a ajuda da nossa
-							metodologia.
+							{{ $t('strm_boosts_malta') }}
 						</p>
 					</div>
 				</div>
@@ -174,13 +182,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">O Juh</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">Primeira playlist editorial do Spotify</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_spotify_playlist') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Com a assistência da Strm, O Juh se consolida com sua primeira playlist editorial do
-							Spotify.
+							{{ $t('strm_assistance_o_juh') }}
 						</p>
 					</div>
 				</div>
@@ -199,13 +208,14 @@
 						<div class="flex flex-col items-start px-6 pt-[22px]">
 							<p class="font-CabinFont text-2xl font-bold">Alex Cohen</p>
 							<div class="flex items-center pt-[8px]">
-								<p class="pr-4 font-CabinFont text-lg">+23% ouvintes mensais no Spotify</p>
+								<p class="pr-4 font-CabinFont text-lg">
+									{{ $t('strm_monthly_listeners_23') }}
+								</p>
 							</div>
 						</div>
 
 						<p class="break-lines px-6 pb-8 pt-2 text-secondary">
-							Em 3 meses do primeiro lançamento com a Strm. Alex Cohen obteve um aumento de 23% em
-							ouvintes mensais no Spotify.
+							{{ $t('strm_monthly_listeners_increase') }}
 						</p>
 					</div>
 				</div>
