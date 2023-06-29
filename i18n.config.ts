@@ -1,5 +1,7 @@
 export default defineI18nConfig(() => ({
 	legacy: false,
+
+	fallbackLocale: 'pt', // the fallback locale
 	locale: 'pt',
 	messages: {
 		pt: {
