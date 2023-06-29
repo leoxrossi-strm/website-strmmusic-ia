@@ -1,5 +1,5 @@
 <template>
-	<section class="z-50 mx-auto w-[80%] lg:mt-28 lg:max-w-[864px]">
+	<section class="z-50 mx-auto w-[80%] lg:mt-28 lg:max-w-[864px]" id="about">
 		<div class="flex flex-col items-center justify-center">
 			<p class="font-CabinFont text-base text-primaryPurple">FOUNDERS</p>
 			<h2 class="py-4 font-CabinFont text-[40px] font-bold">Strm Music</h2>

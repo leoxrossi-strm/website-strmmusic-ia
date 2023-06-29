@@ -9,12 +9,11 @@
 		/>
 
 		<div class="flex items-center py-4 pr-5 lg:hidden">
-			<ButtonBg class="mr-9 h-auto w-auto" />
+			<!-- <ButtonBg class="mr-9 h-auto w-auto" /> -->
+			<span class="h-[44px]"></span>
 		</div>
 		<div class="mr-3 hidden h-[76px] items-center lg:flex">
 			<div class="relative inline-block text-left">
-				<!-- lang component -->
-
 				<div
 					class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
 					role="menu"
@@ -25,13 +24,22 @@
 			</div>
 			<ul class="items-center font-CabinFont text-primary lg:flex">
 				<li>
-					<a href="#" class="pl-12 text-[14px]"> {{ $t('history') }}</a>
+					<a href="#services" class="pl-12 text-[14px]">{{ $t('strm_services') }} </a>
 				</li>
 				<li>
-					<a href="#" class="pl-12 text-[14px]">{{ $t('team') }}</a>
+					<a href="#cases" class="pl-12 text-[14px]">{{ $t('strm_cases') }} </a>
 				</li>
 				<li>
-					<a href="#" class="pl-12 text-[14px]">{{ $t('diagnosis') }} </a>
+					<a href="#plans" class="pl-12 text-[14px]">{{ $t('strm_plans') }} </a>
+				</li>
+				<li>
+					<a href="#about" class="pl-12 text-[14px]"> {{ $t('history') }} </a>
+				</li>
+				<li>
+					<a href="#team" class="pl-12 text-[14px]">{{ $t('team') }}</a>
+				</li>
+				<li>
+					<a href="#diagnosis" class="pl-12 text-[14px]">{{ $t('diagnosis') }} </a>
 				</li>
 				<li class="pl-6">
 					<a
@@ -41,7 +49,7 @@
 					>
 				</li>
 				<li class="mr-5 flex cursor-pointer items-center pl-6">
-					<span> {{ $t('login') }} </span>
+					<a href=" https://artists.strmmusic.com/"> {{ $t('login') }} </a>
 					<nuxt-img
 						src="images/svg/iconLogin.svg"
 						alt="login"

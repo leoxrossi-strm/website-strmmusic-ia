@@ -59,6 +59,7 @@
 			</div>
 		</div>
 	</section>
+	<div id="cases"></div>
 </template>
 <style scoped>
 .box {

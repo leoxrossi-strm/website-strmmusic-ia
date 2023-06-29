@@ -1,5 +1,5 @@
 <template>
-	<section class="relative w-full pt-24">
+	<section class="relative w-full pt-24" id="plans">
 		<div class="mx-auto w-[80%] lg:max-w-[1440px] lg:pb-[174px] lg:pt-44">
 			<h2 class="font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]">
 				<span class="block">

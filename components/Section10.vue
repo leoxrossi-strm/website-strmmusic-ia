@@ -1,5 +1,5 @@
 <template>
-	<section class="relative mt-20 flex lg:mt-28 lg:items-center">
+	<section class="relative mt-20 flex lg:mt-28 lg:items-center" id="team">
 		<div
 			class="relative mx-auto w-[80%] pt-[24px] lg:max-w-[1440px] lg:pb-[182px] lg:pt-[64px] lg:text-left"
 		>

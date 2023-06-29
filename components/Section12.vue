@@ -1,5 +1,5 @@
 <template>
-	<section class="my-element relative mt-0 w-screen lg:mt-[210px]">
+	<section class="my-element relative mt-0 w-screen lg:mt-[210px]" id="diagnosis">
 		<div
 			class="mx-auto flex w-[80%] flex-col pb-16 pt-12 text-left lg:max-w-[1440px] lg:pb-40 lg:pt-40 lg:text-left"
 		>

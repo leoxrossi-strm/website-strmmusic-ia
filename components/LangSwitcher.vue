@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<select v-model="language">
+		<select v-model="language" class="rounded-full bg-primaryPurple px-2 py-2 opacity-90">
 			<option
 				v-for="item in locales"
 				:key="item.code"

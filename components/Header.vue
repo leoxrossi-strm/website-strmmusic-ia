@@ -36,6 +36,7 @@
 		<div class="pink-retangle"></div>
 		<div class="blue-retangle"></div>
 	</header>
+	<div id="services"></div>
 </template>
 <style scoped>
 .pink-retangle {

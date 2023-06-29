@@ -13,3 +13,8 @@
 	<Section12 />
 	<Footer />
 </template>
+<style>
+html {
+	scroll-behavior: smooth;
+}
+</style>
