@@ -43,65 +43,72 @@
 </template>
 
 <script setup>
-const { t } = useI18n()
-const items = [
-	{
-		name: 'Tubaína',
-		growth: '',
-		growthText: t('strm_carousel_title_1'),
-		text: '+47% de ouvintes mensais em seu primeiro lançamento com a Strm, pontuando na Novidades da Semana do Spotify.',
-		imageSrc: 'images/webp/rapperUpScaler.webp'
+const items = ref([])
+const { t, locale } = useI18n()
+watch(
+	locale,
+	() => {
+		items.value = [
+			{
+				name: 'Tubaína',
+				growth: '',
+				growthText: t('strm_carousel_title_1'),
+				text: t('strm_carousel_text_1'),
+				imageSrc: 'images/webp/rapperUpScaler.webp'
+			},
+			{
+				name: 'Sofi Frozza',
+				growth: '',
+				growthText: t('strm_carousel_title_2'),
+				text: t('strm_carousel_text_2'),
+				imageSrc: 'images/webp/cantoraUpScaler.webp'
+			},
+			{
+				name: 'Talis e Welinton',
+				growth: '',
+				growthText: t('strm_carousel_title_3'),
+				text: t('strm_carousel_text_3'),
+				imageSrc: 'images/webp/sertanejoUpScaler.webp'
+			},
+			{
+				name: 'AMARINA',
+				growth: '',
+				growthText: t('strm_carousel_title_4'),
+				text: t('strm_carousel_text_4'),
+				imageSrc: 'images/webp/mbpUpscaler.webp'
+			},
+			{
+				name: 'Viguel',
+				growth: '+237%',
+				growthText: t('strm_carousel_title_5'),
+				text: t('strm_carousel_text_5'),
+				imageSrc: 'images/webp/viguel.webp'
+			},
+			{
+				name: 'Malta',
+				growth: '',
+				growthText: t('strm_carousel_title_6'),
+				text: t('strm_carousel_text_6'),
+				imageSrc: 'images/webp/malta.webp'
+			},
+			{
+				name: 'O Juh',
+				growth: '',
+				growthText: t('strm_carousel_title_7'),
+				text: t('strm_carousel_text_7'),
+				imageSrc: 'images/webp/ojuh.webp'
+			},
+			{
+				name: 'Alex Cohen',
+				growth: '+23%',
+				growthText: t('strm_carousel_title_8'),
+				text: t('strm_carousel_text_8'),
+				imageSrc: 'images/webp/alex.webp'
+			}
+		]
 	},
-	{
-		name: 'Sofi Frozza',
-		growth: '',
-		growthText: 'Capa da Indie Brasil do Spotify',
-		text: 'Strm colabora e impulsiona Malta para Capa no YouTube Music conquistada com nossa AI e nossa metodologia.',
-		imageSrc: 'images/webp/cantoraUpScaler.webp'
-	},
-	{
-		name: 'Talis e Welinton',
-		growth: '',
-		growthText: '+1M de streams em 30 dias',
-		text: 'Em apenas 30 dias, Talis e Welinton alcançaram incríveis +1M de streams nas plataformas graças à Strm.',
-		imageSrc: 'images/webp/sertanejoUpScaler.webp'
-	},
-	{
-		name: 'AMARINA',
-		growth: '',
-		growthText: 'Dest. no Pop Leve do Spotify',
-		text: 'Com a Colaboração da Strm, AMARINA conseguiu colocar 4 músicas simultâneas na playlist Pop Leve do Spotify.',
-		imageSrc: 'images/webp/mbpUpscaler.webp'
-	},
-	{
-		name: 'Viguel',
-		growth: '+237%',
-		growthText: 'de crescimento',
-		text: 'Aumento de 250% dos ouvintes mensais no Spotify em apenas 6 meses lançando com a colaboração Strm.',
-		imageSrc: 'images/webp/viguel.webp'
-	},
-	{
-		name: 'Malta',
-		growth: '',
-		growthText: 'Capa no YouTube Music',
-		text: 'Strm impulsiona Malta a Capa da Rock BR no YouTube Music conquistada com a ajuda da nossa metodologia.',
-		imageSrc: 'images/webp/malta.webp'
-	},
-	{
-		name: 'O Juh',
-		growth: '',
-		growthText: 'Playlist editorial do Spotify',
-		text: 'Com a assistência da Strm, OJuh se consolidou e entrou em sua primeira playlist editorial do Spotify.',
-		imageSrc: 'images/webp/ojuh.webp'
-	},
-	{
-		name: 'Alex Cohen',
-		growth: '+23%',
-		growthText: 'de ouvintes mensais',
-		text: 'Em 3 meses do primeiro lançamento com a Strm. Alex Cohen obteve aumento de 23% em ouvintes mensais no Spotify.',
-		imageSrc: 'images/webp/alex.webp'
-	}
-]
+	{ immediate: true }
+)
 
 const cardsVisible = ref([])
 const cards = ref([])

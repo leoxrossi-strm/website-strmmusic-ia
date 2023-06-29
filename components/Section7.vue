@@ -36,6 +36,7 @@
 						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
 						<p class="pl-2">
 							<span class="font-bold"> {{ $t('strm_email') }}</span>
+							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
 							{{ $t('strm_email_description') }}
 						</p>
 					</li>
@@ -138,6 +139,7 @@
 						/>
 						<p class="pl-2">
 							<span class="font-bold"> {{ $t('strm_email') }}</span>
+							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
 							{{ $t('strm_email_description') }}
 						</p>
 					</li>
@@ -329,6 +331,7 @@
 						/>
 						<p class="pl-2">
 							<span class="font-bold"> {{ $t('strm_email') }}</span>
+							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
 							{{ $t('strm_email_description') }}
 						</p>
 					</li>
