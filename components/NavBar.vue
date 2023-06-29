@@ -13,16 +13,7 @@
 		</div>
 		<div class="mr-3 hidden h-[76px] items-center lg:flex">
 			<div class="relative inline-block text-left">
-				<div>
-					<select
-						v-model="locale"
-						class="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
-					>
-						<option value="pt">Português</option>
-						<option value="en">English</option>
-						<!-- <option value="es">Español</option> -->
-					</select>
-				</div>
+				<!-- lang component -->
 
 				<div
 					class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
@@ -88,17 +79,6 @@
 					/>
 				</div>
 
-				<div>
-					<select
-						v-model="locale"
-						class="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
-					>
-						<option value="pt">Português</option>
-						<option value="en">English</option>
-						<!-- <option value="es">Español</option> -->
-					</select>
-				</div>
-
 				<ul class="flex list-none flex-col items-center font-CabinFont font-normal">
 					<li class="pb-5 pt-[95px] text-lg text-white">
 						<a href="#" @click="toggleMenu">{{ $t('strm_plans') }}</a>
@@ -139,8 +119,6 @@
 </template>
 
 <script setup>
-const { locale } = useI18n()
-
 const menuOpen = ref(false)
 
 const toggleMenu = () => {

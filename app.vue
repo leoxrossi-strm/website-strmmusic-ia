@@ -3,5 +3,6 @@
 		<NuxtLayout>
 			<NuxtPage />
 		</NuxtLayout>
+		<LangSwitcher />
 	</div>
 </template>

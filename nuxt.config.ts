@@ -72,8 +72,26 @@ export default defineNuxtConfig({
 		// ...other options
 	},
 	i18n: {
-		vueI18n: './i18n.config.ts', // if you are using custom path, default
-		locales: ['en', 'es', 'pt'], // added 'pt-BR' to the list of locales
-		defaultLocale: 'pt' // set 'pt-BR' as the default locale
+		lazy: true,
+		langDir: 'locales',
+		strategy: 'prefix_except_default',
+		locales: [
+			{
+				code: 'pt-BR',
+				iso: 'pt-BR',
+				name: 'Português',
+				file: 'pt-BR.json'
+			},
+			{
+				code: 'en-US',
+				iso: 'en-US',
+				name: 'English',
+				file: 'en-US.json'
+			}
+		],
+		defaultLocale: 'pt-BR'
+		// vueI18n: {
+		// 	fallbackLocale: 'pt-BR'
+		// }
 	}
 })
