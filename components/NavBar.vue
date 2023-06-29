@@ -30,18 +30,7 @@
 					aria-orientation="vertical"
 					aria-labelledby="menu-button"
 					tabindex="-1"
-				>
-					<!-- <div class="py-1" role="none">
-						<p
-							class="block px-4 py-2 text-sm text-gray-700"
-							role="menuitem"
-							tabindex="-1"
-							id="menu-item-0"
-						>
-							{{ $t('welcome') }}
-						</p>
-					</div> -->
-				</div>
+				></div>
 			</div>
 			<ul class="items-center font-CabinFont text-primary lg:flex">
 				<li>
@@ -151,16 +140,6 @@
 
 <script setup>
 const { locale } = useI18n()
-
-const translationsLoaded = ref(false)
-
-onMounted(async () => {
-	// Load your translations here. This is just an example.
-	// Replace it with your actual code to load translations.
-	await loadTranslations(locale.value)
-
-	translationsLoaded.value = true
-})
 
 const menuOpen = ref(false)
 
