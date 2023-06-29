@@ -152,6 +152,16 @@
 <script setup>
 const { locale } = useI18n()
 
+const translationsLoaded = ref(false)
+
+onMounted(async () => {
+	// Load your translations here. This is just an example.
+	// Replace it with your actual code to load translations.
+	await loadTranslations(locale.value)
+
+	translationsLoaded.value = true
+})
+
 const menuOpen = ref(false)
 
 const toggleMenu = () => {

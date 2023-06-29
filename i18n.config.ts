@@ -436,8 +436,8 @@ export default defineI18nConfig(() => ({
 	},
 	strategy: 'prefix_except_default',
 	detectBrowserLanguage: {
-		useCookie: true,
-		cookieKey: 'i18n_redirected',
-		onlyOnRoot: true // recommended
+		useCookie: false
+		// cookieKey: 'i18n_redirected',
+		// onlyOnRoot: true
 	}
 }))

@@ -8,7 +8,6 @@
 <script setup>
 useHead({
 	htmlAttrs: {
-		lang: 'pt-BR'
 	},
 	title: 'Strm | Inteligência Artificial para impulsionar a carreira de músicos',
 	meta: [
