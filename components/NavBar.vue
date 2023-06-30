@@ -24,22 +24,22 @@
 			</div>
 			<ul class="items-center font-CabinFont text-primary lg:flex">
 				<li>
-					<a href="#services" class="pl-12 text-[14px]">{{ $t('strm_services') }} </a>
+					<NuxtLink to="#services" class="pl-12 text-[14px]">{{ $t('strm_services') }} </NuxtLink>
 				</li>
 				<li>
-					<a href="#cases" class="pl-12 text-[14px]">{{ $t('strm_cases') }} </a>
+					<NuxtLink to="#cases" class="pl-12 text-[14px]">{{ $t('strm_cases') }} </NuxtLink>
 				</li>
 				<li>
-					<a href="#plans" class="pl-12 text-[14px]">{{ $t('strm_plans') }} </a>
+					<NuxtLink to="#plans" class="pl-12 text-[14px]">{{ $t('strm_plans') }} </NuxtLink>
 				</li>
 				<li>
-					<a href="#about" class="pl-12 text-[14px]"> {{ $t('history') }} </a>
+					<NuxtLink to="#about" class="pl-12 text-[14px]"> {{ $t('history') }} </NuxtLink>
 				</li>
 				<li>
-					<a href="#team" class="pl-12 text-[14px]">{{ $t('team') }}</a>
+					<NuxtLink to="#team" class="pl-12 text-[14px]">{{ $t('team') }}</NuxtLink>
 				</li>
 				<li>
-					<a href="#diagnosis" class="pl-12 text-[14px]">{{ $t('diagnosis') }} </a>
+					<NuxtLink to="#diagnosis" class="pl-12 text-[14px]">{{ $t('diagnosis') }} </NuxtLink>
 				</li>
 				<!-- <li class="pl-6">
 					<a
