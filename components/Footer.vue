@@ -64,7 +64,11 @@
 							</a>
 						</li>
 						<li class="pt-4">
-							<NuxtLink to="#" class="font-CabinFont text-lg" target="_blank">
+							<NuxtLink
+								to="https://www.strmmusic.com/privacy-policy-en.html"
+								class="font-CabinFont text-lg"
+								target="_blank"
+							>
 								{{ $t('strm_company_privacy_policy') }}
 							</NuxtLink>
 						</li>
