@@ -69,7 +69,7 @@
 			name="bi:list"
 			color="white"
 			@click="toggleMenu"
-			class="absolute right-3 top-5 h-8 w-8 cursor-pointer"
+			class="absolute right-3 top-5 z-50 h-8 w-8 cursor-pointer"
 		/>
 
 		<transition name="menu-fade">
