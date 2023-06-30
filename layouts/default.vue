@@ -7,8 +7,16 @@
 
 <script setup>
 useHead({
-	htmlAttrs: {
-	},
+	htmlAttrs: {},
+
+	link: [
+		{
+			rel: 'icon',
+			type: 'image/x-icon',
+			href: 'images/png/favicoStrm.png'
+		}
+	],
+
 	title: 'Strm | Inteligência Artificial para impulsionar a carreira de músicos',
 	meta: [
 		{
