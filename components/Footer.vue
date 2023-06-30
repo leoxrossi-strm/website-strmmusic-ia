@@ -147,17 +147,6 @@
 								</li>
 
 								<li class="pt-4">
-									<a href="#about" class="font-CabinFont text-lg">
-										{{ $t('strm_company_about_us') }}
-									</a>
-								</li>
-								<li class="pt-4">
-									<a href="#team" class="font-CabinFont text-lg">
-										{{ $t('strm_company_team') }}
-									</a>
-								</li>
-
-								<li class="pt-4">
 									<a href="#diagnosis" class="font-CabinFont text-lg">
 										{{ $t('diagnosis') }}
 									</a>
@@ -172,6 +161,16 @@
 					</p>
 					<ul class="pt-3">
 						<li>
+							<a href="#about" class="font-CabinFont text-lg">
+								{{ $t('strm_company_about_us') }}
+							</a>
+						</li>
+						<li class="pt-4">
+							<a href="#team" class="font-CabinFont text-lg">
+								{{ $t('strm_company_team') }}
+							</a>
+						</li>
+						<li class="pt-4">
 							<NuxtLink
 								to="https://www.strmmusic.com/terms-of-use-en.html"
 								class="font-CabinFont text-lg"
