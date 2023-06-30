@@ -26,8 +26,8 @@
 					</p>
 					<ul class="pt-3">
 						<li>
-							<a href="#plans" class="font-CabinFont text-lg">
-								{{ $t('strm_company_plans') }}
+							<a href="#services" class="font-CabinFont text-lg">
+								{{ $t('strm_company_services') }}
 							</a>
 						</li>
 						<li class="pt-4">
@@ -36,8 +36,8 @@
 							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#services" class="font-CabinFont text-lg">
-								{{ $t('strm_company_services') }}
+							<a href="#plans" class="font-CabinFont text-lg">
+								{{ $t('strm_company_plans') }}
 							</a>
 						</li>
 
