@@ -48,7 +48,7 @@
 						>{{ $t('client_area') }}</a
 					>
 				</li> -->
-				<li class="mr-5 flex cursor-pointer items-center pl-6">
+				<li class="ml-7 mr-11 flex cursor-pointer items-center pl-6">
 					<Login />
 					<nuxt-img
 						src="images/svg/iconLogin.svg"
