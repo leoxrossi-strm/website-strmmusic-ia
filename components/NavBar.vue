@@ -65,12 +65,27 @@
 	<!-- mobile -->
 
 	<div class="flex items-center py-4 pr-5 lg:hidden">
-		<Icon
+		<!-- <Icon
 			name="bi:list"
 			color="white"
 			@click="toggleMenu"
 			class="absolute right-3 top-5 z-50 h-8 w-8 cursor-pointer"
-		/>
+		/> -->
+		<ul>
+			<li class="absolute right-14 top-6 z-50 h-8 w-8 cursor-pointer">
+				<div class="flex">
+					<Login />
+					<nuxt-img
+						src="images/svg/iconLogin.svg"
+						alt="login"
+						class="ml-3"
+						width="18"
+						height="18"
+						loading="lazy"
+					/>
+				</div>
+			</li>
+		</ul>
 
 		<transition name="menu-fade">
 			<div v-if="menuOpen" class="menu-container z-50 font-CabinFont">
