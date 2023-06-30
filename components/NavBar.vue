@@ -12,7 +12,7 @@
 			<!-- <ButtonBg class="mr-9 h-auto w-auto" /> -->
 			<span class="h-[44px]"></span>
 		</div>
-		<div class="mr-3 hidden h-[76px] items-center lg:flex">
+		<div class="mr-28 hidden h-[76px] items-center lg:flex">
 			<div class="relative inline-block text-left">
 				<div
 					class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
@@ -41,15 +41,15 @@
 				<li>
 					<a href="#diagnosis" class="pl-12 text-[14px]">{{ $t('diagnosis') }} </a>
 				</li>
-				<li class="pl-6">
+				<!-- <li class="pl-6">
 					<a
 						href="#"
 						class="inline-block items-center rounded-[32px] border-2 border-primaryPurple bg-transparent px-4 py-3 font-CabinFont text-[14px] text-sm font-normal text-primary outline-none"
 						>{{ $t('client_area') }}</a
 					>
-				</li>
+				</li> -->
 				<li class="mr-5 flex cursor-pointer items-center pl-6">
-					<a href=" https://artists.strmmusic.com/"> {{ $t('login') }} </a>
+					<Login />
 					<nuxt-img
 						src="images/svg/iconLogin.svg"
 						alt="login"

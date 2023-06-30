@@ -9,21 +9,34 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+
 const props = defineProps({
 	textButton: {
 		type: String,
 		default: 'strm_dare_to_test'
-	},
-	url: {
-		type: String,
-		default: 'https://artists.strmmusic.com/quiz'
 	}
 })
+
+// Get current locale
+const { locale } = useI18n()
+
+// Compute URL based on locale
+let url = computed(() => {
+	if (locale.value === 'pt-BR') {
+		return 'https://artists.strmmusic.com/quiz'
+	} else if (locale.value === 'en-US') {
+		return 'https://artists.strmmusic.com/quiz/en?simple=true'
+	} else {
+		return 'https://artists.strmmusic.com/quiz' // default URL
+	}
+})
+// Get current locale
 </script>
+
 <style scoped>
 .hvr:hover {
 	box-shadow: #5a57ff 0px 0px 10px 0px, #1f1d56 0px 0px 20px 0px;
-
 	transition: all 0.2s ease 0s;
 }
 </style>

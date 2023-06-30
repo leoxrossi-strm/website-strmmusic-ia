@@ -14,11 +14,19 @@ const props = defineProps({
 	textButtonOut: {
 		type: String,
 		default: 'strm_talk_to_ar'
-	},
-	url: {
-		type: String,
-		default:
-			'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A%26R'
+	}
+})
+
+const { locale } = useI18n()
+
+// Compute URL based on locale
+let url = computed(() => {
+	if (locale.value === 'pt-BR') {
+		return 'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A%26R'
+	} else if (locale.value === 'en-US') {
+		return 'https://api.whatsapp.com/send?phone=5511978946137&text=I%20want%20to%20talk%20with%20an%20A%26R'
+	} else {
+		return 'https://api.whatsapp.com/send?phone=5511978946137&text=Quero%20falar%20com%20um%20A%26R' // default URL
 	}
 })
 </script>

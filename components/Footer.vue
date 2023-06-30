@@ -26,18 +26,24 @@
 					</p>
 					<ul class="pt-3">
 						<li>
-							<a href="#" class="font-CabinFont text-lg">
+							<a href="#plans" class="font-CabinFont text-lg">
 								{{ $t('strm_company_plans') }}
 							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">
+							<a href="#cases" class="font-CabinFont text-lg">
 								{{ $t('strm_company_cases') }}
 							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">
+							<a href="#services" class="font-CabinFont text-lg">
 								{{ $t('strm_company_services') }}
+							</a>
+						</li>
+
+						<li class="pt-4">
+							<a href="#diagnosis" class="font-CabinFont text-lg">
+								{{ $t('diagnosis') }}
 							</a>
 						</li>
 					</ul>
@@ -48,19 +54,127 @@
 					</p>
 					<ul class="pt-3">
 						<li>
-							<a href="#" class="font-CabinFont text-lg">
+							<a href="#about" class="font-CabinFont text-lg">
 								{{ $t('strm_company_about_us') }}
 							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">
+							<a href="#team" class="font-CabinFont text-lg">
 								{{ $t('strm_company_team') }}
 							</a>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">
+							<NuxtLink to="#" class="font-CabinFont text-lg" target="_blank">
 								{{ $t('strm_company_privacy_policy') }}
-							</a>
+							</NuxtLink>
+						</li>
+						<li class="pt-4">
+							<NuxtLink
+								to="https://www.strmmusic.com/terms-of-use-en.html"
+								class="font-CabinFont text-lg"
+								target="_blank"
+							>
+								{{ $t('strm_company_terms_of_use') }}
+							</NuxtLink>
+						</li>
+					</ul>
+				</div>
+
+				<div class="flex items-center">
+					<NuxtLink to="https://www.instagram.com/strm.music/" target="_blank">
+						<nuxt-img
+							src="images/svg/u_instagram.svg"
+							alt="instagram"
+							class="mr-3"
+							width="19"
+							height="18"
+							loading="lazy"
+						/>
+					</NuxtLink>
+					<NuxtLink to="https://www.youtube.com/@strm9820" target="_blank">
+						<nuxt-img
+							src="images/svg/u_youtube2.svg"
+							alt="youtube"
+							width="21"
+							height="21"
+							loading="lazy"
+						/>
+					</NuxtLink>
+					<span class="hidden pl-6 lg:block">
+						<ul>
+							<li class="mr-5 flex cursor-pointer items-center pl-6">
+								<Login />
+								<nuxt-img
+									src="images/svg/iconLogin.svg"
+									alt="login"
+									class="ml-3"
+									width="16"
+									height="16"
+								/>
+							</li>
+						</ul>
+					</span>
+				</div>
+			</div>
+			<div class="lg:hidden">
+				<div>
+					<p class="pt-6 font-CabinFont text-secondary lg:text-xl">
+						<span class="block"> {{ $t('strm_strm_first_company') }}</span>
+						{{ $t('strm_strm_first_company_2') }}
+					</p>
+					<div class="pt-12">
+						<div>
+							<p class="font-CabinFont text-primaryPurple">{{ $t('strm_getting_to_know') }}</p>
+							<ul class="pt-3">
+								<li>
+									<a href="#" class="font-CabinFont text-lg">
+										{{ $t('strm_company_services') }}
+									</a>
+								</li>
+								<li class="pt-4">
+									<a href="#cases" class="font-CabinFont text-lg">
+										{{ $t('strm_company_cases') }}
+									</a>
+								</li>
+								<li class="pt-4">
+									<a href="#plans" class="font-CabinFont text-lg">
+										{{ $t('strm_company_plans') }}
+									</a>
+								</li>
+
+								<li class="pt-4">
+									<a href="#about" class="font-CabinFont text-lg">
+										{{ $t('strm_company_about_us') }}
+									</a>
+								</li>
+								<li class="pt-4">
+									<a href="#team" class="font-CabinFont text-lg">
+										{{ $t('strm_company_team') }}
+									</a>
+								</li>
+
+								<li class="pt-4">
+									<a href="#diagnosis" class="font-CabinFont text-lg">
+										{{ $t('diagnosis') }}
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="pt-12">
+					<p class="font-CabinFont text-primaryPurple">
+						{{ $t('strm_company') }}
+					</p>
+					<ul class="pt-3">
+						<li>
+							<NuxtLink
+								to="https://www.strmmusic.com/terms-of-use-en.html"
+								class="font-CabinFont text-lg"
+								target="_blank"
+							>
+								{{ $t('strm_company_privacy_policy') }}
+							</NuxtLink>
 						</li>
 						<li class="pt-4">
 							<a href="#" class="font-CabinFont text-lg">
@@ -69,77 +183,12 @@
 						</li>
 					</ul>
 				</div>
-
-				<div class="flex items-center">
-					<nuxt-img
-						src="images/svg/u_instagram.svg"
-						alt="instagram"
-						class="mr-3"
-						width="19"
-						height="18"
-						loading="lazy"
-					/>
-					<nuxt-img
-						src="images/svg/u_youtube2.svg"
-						alt="youtube"
-						width="21"
-						height="21"
-						loading="lazy"
-					/>
-					<span class="hidden pl-6 lg:block">
-						<a
-							href="#"
-							class="inline-block items-center rounded-[32px] border-2 border-primaryPurple bg-transparent px-4 py-3 font-CabinFont text-[14px] text-sm font-normal text-primary outline-none"
-							>{{ $t('client_area') }}</a
-						>
-					</span>
-				</div>
-			</div>
-			<div class="lg:hidden">
-				<div>
-					<p class="pt-6 font-CabinFont text-secondary lg:text-xl">
-						<span class="block"> A primeira empresa pensada</span> primeiro no artista.
-					</p>
-					<div class="pt-12">
-						<div>
-							<p class="font-CabinFont text-primaryPurple">Entenda</p>
-							<ul class="pt-3">
-								<li>
-									<a href="#" class="font-CabinFont text-lg">Planos</a>
-								</li>
-								<li class="pt-4">
-									<a href="#" class="font-CabinFont text-lg">Cases</a>
-								</li>
-								<li class="pt-4">
-									<a href="#" class="font-CabinFont text-lg">Serviços</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="pt-12">
-					<p class="font-CabinFont text-primaryPurple">Empresa</p>
-					<ul class="pt-3">
-						<li>
-							<a href="#" class="font-CabinFont text-lg">Sobre</a>
-						</li>
-						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Time</a>
-						</li>
-						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Política de Privacidade</a>
-						</li>
-						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">Termos de Uso</a>
-						</li>
-					</ul>
-				</div>
 			</div>
 
 			<div class="lg:hidden">
 				<ul>
 					<li class="flex cursor-pointer items-center pt-10 font-CabinFont">
-						<span> login</span>
+						<Login />
 						<nuxt-img
 							src="images/svg/iconLogin.svg"
 							alt="login"
