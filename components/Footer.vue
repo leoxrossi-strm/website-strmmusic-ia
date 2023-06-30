@@ -177,7 +177,10 @@
 							</NuxtLink>
 						</li>
 						<li class="pt-4">
-							<a href="#" class="font-CabinFont text-lg">
+							<a
+								href="https://www.strmmusic.com/privacy-policy-en.html"
+								class="font-CabinFont text-lg"
+							>
 								{{ $t('strm_company_terms_of_use') }}
 							</a>
 						</li>

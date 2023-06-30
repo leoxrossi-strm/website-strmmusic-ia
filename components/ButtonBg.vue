@@ -24,11 +24,11 @@ const { locale } = useI18n()
 // Compute URL based on locale
 let url = computed(() => {
 	if (locale.value === 'pt-BR') {
-		return 'https://artists.strmmusic.com/quiz'
+		return 'https://artists.strmmusic.com/quiz?simple=true'
 	} else if (locale.value === 'en-US') {
 		return 'https://artists.strmmusic.com/quiz/en?simple=true'
 	} else {
-		return 'https://artists.strmmusic.com/quiz' // default URL
+		return 'https://artists.strmmusic.com/quiz?simple=true' // default URL
 	}
 })
 // Get current locale
