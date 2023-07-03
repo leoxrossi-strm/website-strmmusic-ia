@@ -47,6 +47,7 @@
 					alt="cantora"
 					class="lg:hidden"
 					loading="lazy"
+					placeholder="images/gif/placeholder.gif"
 				/>
 				<nuxt-img
 					src="images/webp/singer.webp"

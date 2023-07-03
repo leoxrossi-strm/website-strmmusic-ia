@@ -13,7 +13,7 @@ useHead({
 		{
 			rel: 'icon',
 			type: 'image/x-icon',
-			href: 'images/png/favicoStrm.png'
+			href: 'images/png/sfavicoStrm.png'
 		}
 	],
 
