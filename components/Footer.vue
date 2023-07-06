@@ -65,7 +65,7 @@
 						</li>
 						<li class="pt-4">
 							<NuxtLink
-								to="https://www.strmmusic.com/privacy-policy-en.html"
+								to="https://artists.strmmusic.com/terms-of-use.html"
 								class="font-CabinFont text-lg"
 								target="_blank"
 							>
@@ -74,7 +74,7 @@
 						</li>
 						<li class="pt-4">
 							<NuxtLink
-								to="https://www.strmmusic.com/terms-of-use-en.html"
+								to="https://artists.strmmusic.com/privacy-policy.html"
 								class="font-CabinFont text-lg"
 								target="_blank"
 							>
