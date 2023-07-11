@@ -13,6 +13,8 @@
 			</div>
 			<h1 class="titleHeader">
 				{{ $t('strm_accelerate_career') }}
+				<span class="lg:block">{{ $t('strm_accelerate_career_2') }} </span>
+				{{ $t('strm_accelerate_career_3') }}
 			</h1>
 			<h2 class="px-12 font-CabinFont lg:px-0 lg:text-2xl">
 				{{ $t('strm_independent_artist') }}<span class="block lg:inline-block"></span>

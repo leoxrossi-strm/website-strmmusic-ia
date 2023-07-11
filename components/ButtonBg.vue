@@ -1,7 +1,7 @@
 <template>
 	<NuxtLink
 		:to="url"
-		class="hvr flex w-[179.27px] items-center justify-between gap-2 rounded-[32px] bg-primaryPurple px-6 py-3 font-CabinFont text-sm font-normal text-primary outline-none"
+		class="hvr flex w-[179.27px] items-center justify-between gap-2 rounded-[32px] bg-primaryPurple px-6 py-3 font-CabinFont text-sm font-normal text-primary outline-none xl:w-auto 2xl:w-[179.27px]"
 	>
 		{{ $t(textButton) }}
 		<Icon name="bi:chevron-right" color="white" />
