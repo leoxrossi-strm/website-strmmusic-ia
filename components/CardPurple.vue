@@ -4,9 +4,10 @@
 			<div class="flex items-start justify-between px-4 pt-[22px]">
 				<nuxt-img :src="icon" alt="ícone" loading="lazy" width="20" height="20" />
 				<div class="flex items-center pb-[8px]">
-					<div :class="status == 'Disponível agora' ? 'avaialable' : 'development'">
+					<div :class="status == 'strm_available_now' ? 'avaialable' : 'development'">
 						<p class="pr-4 font-CabinFont text-sm font-bold">{{ $t(status) }}</p>
 					</div>
+
 					<div>
 						<nux-img
 							v-if="status === 'Disponível agora'"
