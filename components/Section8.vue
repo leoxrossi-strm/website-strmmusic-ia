@@ -23,7 +23,7 @@
 			</p>
 
 			<p class="relative z-50 pt-6 font-CabinFont text-base font-bold lg:text-xl">
-				<span class="block">
+				<span class="lg:block">
 					<span class="text-[#33CAE3]">
 						{{ $t('strm_100_openings') }}
 					</span>

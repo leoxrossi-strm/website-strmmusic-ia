@@ -18,8 +18,7 @@
 					<nuxt-img
 						src="images/webp/01.webp"
 						alt="membro da equipe"
-						width="97"
-						height="97"
+						style="width: 97px; height: 97px"
 						loading="lazy"
 					/>
 				</div>
@@ -59,8 +58,7 @@
 					<nuxt-img
 						src="images/webp/02.webp"
 						alt="membro da equipe"
-						width="97"
-						height="97"
+						class="h-[97px] w-[108px] lg:h-[97px] lg:w-[97px]"
 						loading="lazy"
 					/>
 				</div>

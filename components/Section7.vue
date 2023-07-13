@@ -4,7 +4,7 @@
 	>
 		<!-- price 1 -->
 
-		<div class="w-full px-4 md:p-7 lg:pl-0">
+		<div class="w-full md:p-7 lg:px-4 lg:pl-0">
 			<div class="gradient-border">
 				<div class="gradient-box">
 					<div class="flex items-center justify-between px-6 py-6">
@@ -33,7 +33,11 @@
 			<div class="-mt-4 rounded-b-lg bg-[#0F0D2A] pt-8">
 				<ul class="px-6 pb-8 font-CabinFont text-base text-secondary" ref="price1">
 					<li class="flex items-start">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							style="width: 18px; height: 18px"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> {{ $t('strm_email') }}</span>
 							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
@@ -42,14 +46,22 @@
 					</li>
 
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							style="width: 18px; height: 18px"
+						/>
 						<p class="pl-2">
 							<span class="font-bold"> {{ $t('strm_chat') }}</span
 							>{{ $t('strm_chat_description') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
-						<nuxt-img src="images/svg/checkIcon.svg" alt="check mark" width="18" height="18" />
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							style="width: 18px; height: 18px"
+						/>
 						<p class="pl-2">
 							<span class="font-bold">{{ $t('strm_editorial_pitching') }}</span>
 							{{ $t('strm_editorial_pitching_description') }}
@@ -59,9 +71,8 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
 							loading="lazy"
+							style="width: 18px; height: 18px"
 						/>
 
 						<p class="pl-2">
@@ -73,8 +84,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -86,8 +96,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -101,7 +110,7 @@
 
 		<!-- price 2  -->
 
-		<div class="w-full px-4 pt-7">
+		<div class="w-full pt-7 lg:px-4">
 			<div class="gradient-border">
 				<div class="gradient-box">
 					<div class="flex items-center justify-between px-6 py-6">
@@ -133,8 +142,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -148,8 +156,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -162,8 +169,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -176,8 +182,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -189,8 +194,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -204,8 +208,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -218,8 +221,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -231,8 +233,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -245,8 +246,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -258,8 +258,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -293,7 +292,7 @@
 		</div>
 
 		<!-- price 3  -->
-		<div class="w-full px-4 pt-7">
+		<div class="w-full pt-7 lg:px-4">
 			<div class="gradient-border">
 				<div class="gradient-box">
 					<div class="flex items-center justify-between px-6 py-6">
@@ -325,8 +324,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -340,8 +338,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -354,8 +351,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -368,8 +364,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -383,8 +378,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -398,8 +392,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -414,8 +407,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -427,8 +419,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -443,8 +434,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -459,8 +449,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -475,8 +464,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -489,8 +477,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -502,8 +489,7 @@
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
 							alt="check mark"
-							width="18"
-							height="18"
+							style="width: 18px; height: 18px"
 							loading="lazy"
 						/>
 						<p class="pl-2">
@@ -654,10 +640,8 @@ const priceClass1 = computed(() => {
 	height: auto;
 }
 
-.price-container {
-	display: flex;
-}
-.price-box {
-	flex-grow: 1;
+.checkmark {
+	width: 20px !important;
+	height: 20px !important;
 }
 </style>
