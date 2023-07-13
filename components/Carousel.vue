@@ -43,69 +43,75 @@
 </template>
 
 <script setup>
-const items = ref([])
 const { t, locale } = useI18n()
+
+let items = reactive([])
+
+const createItems = () => {
+	return [
+		{
+			name: 'Tubaína',
+			growth: '',
+			growthText: t('strm_carousel_title_1'),
+			text: t('strm_carousel_text_1'),
+			imageSrc: 'images/webp/rapperUpScaler.webp'
+		},
+		{
+			name: 'Sofi Frozza',
+			growth: '',
+			growthText: t('strm_carousel_title_2'),
+			text: t('strm_carousel_text_2'),
+			imageSrc: 'images/webp/cantoraUpScaler.webp'
+		},
+		{
+			name: 'Talis e Welinton',
+			growth: '',
+			growthText: t('strm_carousel_title_3'),
+			text: t('strm_carousel_text_3'),
+			imageSrc: 'images/webp/sertanejoUpScaler.webp'
+		},
+		{
+			name: 'AMARINA',
+			growth: '',
+			growthText: t('strm_carousel_title_4'),
+			text: t('strm_carousel_text_4'),
+			imageSrc: 'images/webp/mbpUpscaler.webp'
+		},
+		{
+			name: 'Viguel',
+			growth: '+237%',
+			growthText: t('strm_carousel_title_5'),
+			text: t('strm_carousel_text_5'),
+			imageSrc: 'images/webp/viguel.webp'
+		},
+		{
+			name: 'Malta',
+			growth: '',
+			growthText: t('strm_carousel_title_6'),
+			text: t('strm_carousel_text_6'),
+			imageSrc: 'images/webp/malta.webp'
+		},
+		{
+			name: 'O Juh',
+			growth: '',
+			growthText: t('strm_carousel_title_7'),
+			text: t('strm_carousel_text_7'),
+			imageSrc: 'images/webp/ojuh.webp'
+		},
+		{
+			name: 'Alex Cohen',
+			growth: '+23%',
+			growthText: t('strm_carousel_title_8'),
+			text: t('strm_carousel_text_8'),
+			imageSrc: 'images/webp/alex.webp'
+		}
+	]
+}
+
 watch(
 	locale,
 	() => {
-		items.value = [
-			{
-				name: 'Tubaína',
-				growth: '',
-				growthText: t('strm_carousel_title_1'),
-				text: t('strm_carousel_text_1'),
-				imageSrc: 'images/webp/rapperUpScaler.webp'
-			},
-			{
-				name: 'Sofi Frozza',
-				growth: '',
-				growthText: t('strm_carousel_title_2'),
-				text: t('strm_carousel_text_2'),
-				imageSrc: 'images/webp/cantoraUpScaler.webp'
-			},
-			{
-				name: 'Talis e Welinton',
-				growth: '',
-				growthText: t('strm_carousel_title_3'),
-				text: t('strm_carousel_text_3'),
-				imageSrc: 'images/webp/sertanejoUpScaler.webp'
-			},
-			{
-				name: 'AMARINA',
-				growth: '',
-				growthText: t('strm_carousel_title_4'),
-				text: t('strm_carousel_text_4'),
-				imageSrc: 'images/webp/mbpUpscaler.webp'
-			},
-			{
-				name: 'Viguel',
-				growth: '+237%',
-				growthText: t('strm_carousel_title_5'),
-				text: t('strm_carousel_text_5'),
-				imageSrc: 'images/webp/viguel.webp'
-			},
-			{
-				name: 'Malta',
-				growth: '',
-				growthText: t('strm_carousel_title_6'),
-				text: t('strm_carousel_text_6'),
-				imageSrc: 'images/webp/malta.webp'
-			},
-			{
-				name: 'O Juh',
-				growth: '',
-				growthText: t('strm_carousel_title_7'),
-				text: t('strm_carousel_text_7'),
-				imageSrc: 'images/webp/ojuh.webp'
-			},
-			{
-				name: 'Alex Cohen',
-				growth: '+23%',
-				growthText: t('strm_carousel_title_8'),
-				text: t('strm_carousel_text_8'),
-				imageSrc: 'images/webp/alex.webp'
-			}
-		]
+		items = createItems()
 	},
 	{ immediate: true }
 )
