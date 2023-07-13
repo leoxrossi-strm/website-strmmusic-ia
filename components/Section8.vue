@@ -6,7 +6,7 @@
 			<h2
 				class="relative z-50 font-CabinFont text-2xl font-bold leading-[33px] lg:text-5xl lg:leading-[58px]"
 			>
-				<span class="block">
+				<span class="lg:block">
 					{{ $t('strm_career_stage') }}
 				</span>
 				{{ $t('strm_career_stage_2') }}
