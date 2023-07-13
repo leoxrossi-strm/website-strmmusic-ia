@@ -18,7 +18,8 @@
 					<nuxt-img
 						src="images/webp/01.webp"
 						alt="membro da equipe"
-						style="width: 97px; height: 97px"
+						width="97"
+						height="97"
 						loading="lazy"
 					/>
 				</div>
@@ -58,14 +59,15 @@
 					<nuxt-img
 						src="images/webp/02.webp"
 						alt="membro da equipe"
-						class="h-[97px] w-[108px] lg:h-[97px] lg:w-[97px]"
+						width="97"
+						height="97"
 						loading="lazy"
 					/>
 				</div>
 				<div>
 					<h2 class="pl-4 text-2xl font-bold lg:text-[40px]">Thiago Lobão</h2>
 					<p class="pl-4 pt-4 font-CabinFont text-primaryPurple">
-						Founder & Chief Investment Officer
+						Founder & <span class="block lg:inline-block"> Chief Investment Officer </span>
 					</p>
 				</div>
 			</div>
