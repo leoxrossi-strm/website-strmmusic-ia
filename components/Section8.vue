@@ -31,9 +31,7 @@
 				</span>
 				{{ $t('strm_100_openings_3') }}
 			</p>
-			<div
-				class="invisible relative z-50 flex flex-col items-start justify-start gap-4 pt-8 lg:flex-row"
-			>
+			<div class="relative z-50 flex flex-col items-start justify-start gap-4 pt-8 lg:flex-row">
 				<span class="lg:hidden">
 					<ButtonBg />
 				</span>

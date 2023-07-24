@@ -1,12 +1,14 @@
 <template>
-	<NuxtLink
-		:to="url"
-		target="_blank"
-		class="hvr flex items-center justify-between gap-2 rounded-[32px] border-2 border-primaryPurple bg-transparent px-6 py-3 font-CabinFont text-sm font-normal text-primary outline-none"
-	>
-		{{ $t(textButtonOut) }}
-		<Icon name="bi:chevron-right" color="white" />
-	</NuxtLink>
+	<div class="invisible">
+		<NuxtLink
+			:to="url"
+			target="_blank"
+			class="hvr flex items-center justify-between gap-2 rounded-[32px] border-2 border-primaryPurple bg-transparent px-6 py-3 font-CabinFont text-sm font-normal text-primary outline-none"
+		>
+			{{ $t(textButtonOut) }}
+			<Icon name="bi:chevron-right" color="white" />
+		</NuxtLink>
+	</div>
 </template>
 
 <script setup>

@@ -43,7 +43,7 @@
 					/>
 				</div>
 			</div>
-			<div class="hidden flex-col items-start gap-4 pt-8 lg:flex-row lg:pt-11">
+			<div class="flex flex-col items-start gap-4 pt-8 lg:flex-row lg:pt-11">
 				<span class="lg:hidden">
 					<ButtonBg />
 				</span>
