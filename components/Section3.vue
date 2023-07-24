@@ -39,7 +39,7 @@
         <span class="2xl:block">
           {{ $t('strm_ai_data_science') }} <span class="text-primaryPurple font-bold"> {{ $t('strm_ai_data_science_2') }}</span> {{ $t('strm_ai_data_science_3') }}
         </span>
-        <div class="flex flex-col items-start lg:flex-row pt-6 gap-4">
+        <div class="flex flex-col items-start lg:flex-row pt-6 gap-4 invisible">
           <span class="lg:hidden">
             <ButtonBg />
           </span>

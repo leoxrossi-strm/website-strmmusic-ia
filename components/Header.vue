@@ -21,7 +21,7 @@
 				{{ $t('strm_independent_artist_2') }}
 			</h2>
 
-			<div class="mt-5 flex flex-col gap-6 px-12">
+			<div class="invisible mt-5 flex flex-col gap-6 px-12">
 				<span class="lg:hidden">
 					<ButtonBg />
 				</span>
@@ -29,7 +29,7 @@
 					<ButtonOut />
 				</span>
 			</div>
-			<span class="mt-2 hidden gap-4 lg:flex">
+			<span class="invisible mt-2 hidden gap-4 lg:flex">
 				<ButtonBg />
 				<ButtonOut />
 			</span>
