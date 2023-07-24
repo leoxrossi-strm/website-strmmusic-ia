@@ -18,7 +18,7 @@
 				{{ $t('strm_different_packs_2') }}
 			</p>
 
-			<div class="invisible mt-9 flex flex-col items-start justify-start gap-4 lg:flex-row">
+			<div class="mt-9 flex flex-col items-start justify-start gap-4 lg:flex-row">
 				<span class="lg:hidden">
 					<ButtonBg />
 				</span>
