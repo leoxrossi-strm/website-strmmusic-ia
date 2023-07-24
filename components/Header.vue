@@ -29,10 +29,10 @@
 					<ButtonOut />
 				</span>
 			</div>
-			<span class="mt-2 hidden gap-4 lg:flex">
+			<!-- <span class="mt-2 hidden gap-4 lg:flex">
 				<ButtonBg />
 				<ButtonOut />
-			</span>
+			</span> -->
 		</div>
 		<div class="black-retangle"></div>
 		<div class="pink-retangle"></div>

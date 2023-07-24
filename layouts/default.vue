@@ -1,10 +1,3 @@
-<template>
-	<div class="md: line h-2 w-full"></div>
-	<main class="overflow-hidden">
-		<slot />
-	</main>
-</template>
-
 <script setup>
 useHead({
 	htmlAttrs: {},
@@ -12,8 +5,8 @@ useHead({
 	link: [
 		{
 			rel: 'icon',
-			type: 'image/x-icon',
-			href: 'images/png/sfavicoStrm.png'
+			type: 'image/png',
+			href: 'images/png/fav-ico-strm.png'
 		}
 	],
 
@@ -32,6 +25,13 @@ useHead({
 	]
 })
 </script>
+
+<template>
+	<div class="md: line h-2 w-full"></div>
+	<main class="overflow-hidden">
+		<slot />
+	</main>
+</template>
 
 <style>
 html {
