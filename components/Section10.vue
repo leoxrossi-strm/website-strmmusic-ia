@@ -41,7 +41,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Konrad Dantas</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Kondzilla | Investidor & Board Member
+								Kondzilla | {{ $t('strm_investor') }} & Board Member
 							</p>
 						</div>
 					</div>
@@ -66,7 +66,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Elliane Boogie Naipe</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Boogie Naipe | Investidora <span class="block"> & Board Member</span>
+								Boogie Naipe | {{ $t('strm_investor1') }} <span class="block"> & Board Member</span>
 							</p>
 						</div>
 					</div>
@@ -91,7 +91,8 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Fabio Fakri</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Futurum Capital | F&S | Investidor <span class="block"> & Board Member</span>
+								Futurum Capital | F&S | {{ $t('strm_investor') }}
+								<span class="block"> & Board Member</span>
 							</p>
 						</div>
 					</div>
@@ -116,7 +117,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Henrique Portugal</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Skank | Investidor & Board member
+								Skank | {{ $t('strm_investor') }} & Board member
 							</p>
 						</div>
 					</div>
@@ -141,7 +142,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Guilherme Veiga</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Jive | Investidor & Board Member
+								Jive | {{ $t('strm_investor') }} & Board Member
 							</p>
 						</div>
 					</div>
@@ -166,7 +167,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Rodrigo Ribeiro</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								Jive | Investidor & Board Member
+								Jive | {{ $t('strm_investor') }} & Board Member
 							</p>
 						</div>
 					</div>
