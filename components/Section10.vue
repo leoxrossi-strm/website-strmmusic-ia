@@ -191,7 +191,9 @@
 						</div>
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">João Teixeira</h2>
-							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">Certsys Investidor</p>
+							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
+								Certsys {{ $t('strm_investor') }}
+							</p>
 						</div>
 					</div>
 					<div>
@@ -260,7 +262,7 @@
 						<div>
 							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Caco Grandino</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
-								NX Zero | Investidor & Board member
+								NX Zero | {{ $t('strm_investor') }} & Board member
 							</p>
 						</div>
 					</div>
