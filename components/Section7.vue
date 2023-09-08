@@ -39,9 +39,7 @@
 							style="width: 18px; height: 18px"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_email') }}</span>
-							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
-							{{ $t('strm_email_description') }}
+							{{ $t('strm_music_1') }}
 						</p>
 					</li>
 
@@ -52,8 +50,7 @@
 							style="width: 18px; height: 18px"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_chat') }}</span
-							>{{ $t('strm_chat_description') }}
+							{{ $t('strm_music_2') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -63,8 +60,7 @@
 							style="width: 18px; height: 18px"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">{{ $t('strm_editorial_pitching') }}</span>
-							{{ $t('strm_editorial_pitching_description') }}
+							{{ $t('strm_music_3') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-4">
@@ -76,8 +72,7 @@
 						/>
 
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_strm_for_labels') }}</span>
-							{{ $t('strm_strm_for_labels_description') }}
+							{{ $t('strm_music_4') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -88,8 +83,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Strm for artists:</span>
-							{{ $t('strm_strm_for_labels_description') }}
+							{{ $t('strm_music_5') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -100,8 +94,19 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_strm_career_diagnosis') }} </span>
-							{{ $t('strm_strm_career_diagnosis_description') }}
+							{{ $t('strm_music_6') }}
+						</p>
+					</li>
+					<li class="flex items-start pt-4">
+						<nuxt-img
+							src="images/svg/checkIcon.svg"
+							alt="check mark"
+							loading="lazy"
+							style="width: 18px; height: 18px"
+						/>
+
+						<p class="pl-2">
+							{{ $t('strm_music_7') }}
 						</p>
 					</li>
 				</ul>
@@ -146,9 +151,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_email') }}</span>
-							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
-							{{ $t('strm_email_description') }}
+							{{ $t('strm_stars_1') }}
 						</p>
 					</li>
 
@@ -160,8 +163,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_chat') }}</span>
-							{{ $t('strm_chat_description') }}
+							{{ $t('strm_stars_2') }}
 						</p>
 					</li>
 
@@ -173,8 +175,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_whatsapp') }} </span>
-							{{ $t('strm_whatsapp_description') }}
+							{{ $t('strm_stars_3') }}
 						</p>
 					</li>
 
@@ -186,8 +187,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">{{ $t('strm_events') }}</span>
-							{{ $t('strm_events_description') }}
+							{{ $t('strm_stars_4') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -198,10 +198,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_strategic_meetings') }}
-							</span>
-							{{ $t('strm_strategic_meetings_description') }}
+							{{ $t('strm_stars_5') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -212,23 +209,10 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">{{ $t('strm_editorial_pitching') }}</span>
-							{{ $t('strm_editorial_pitching_description') }}
+							{{ $t('strm_stars_6') }}
 						</p>
 					</li>
 
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							style="width: 18px; height: 18px"
-							loading="lazy"
-						/>
-						<p class="pl-2">
-							<span class="font-bold"> Pitching 2ID:</span>
-							{{ $t('strm_pitching_2id_description') }}
-						</p>
-					</li>
 					<li class="flex items-start pt-4">
 						<nuxt-img
 							src="images/svg/checkIcon.svg"
@@ -237,8 +221,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_strm_for_labels') }}</span>
-							{{ $t('strm_strm_for_labels_description') }}
+							{{ $t('strm_stars_7') }}
 						</p>
 					</li>
 
@@ -250,20 +233,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Strm for artists:</span>
-							{{ $t('strm_strm_for_labels_description') }}
-						</p>
-					</li>
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							style="width: 18px; height: 18px"
-							loading="lazy"
-						/>
-						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_strm_career_diagnosis') }}</span>
-							{{ $t('strm_strm_career_diagnosis_description') }}
+							{{ $t('strm_stars_8') }}
 						</p>
 					</li>
 				</ul>
@@ -328,9 +298,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_email') }}</span>
-							{{ $t('strm_email_account') }}@{{ $t('strm_email_domain') }}
-							{{ $t('strm_email_description') }}
+							{{ $t('strm_special_team_1') }}
 						</p>
 					</li>
 
@@ -342,8 +310,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_chat') }}</span>
-							{{ $t('strm_chat_description') }}
+							{{ $t('strm_special_team_2') }}
 						</p>
 					</li>
 
@@ -355,8 +322,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">{{ $t('strm_whatsapp') }}</span>
-							{{ $t('strm_whatsapp_description') }}
+							{{ $t('strm_special_team_3') }}
 						</p>
 					</li>
 
@@ -368,10 +334,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_strm_special_team') }}
-							</span>
-							{{ $t('strm_strm_special_team_description') }}
+							{{ $t('strm_special_team_4') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -382,10 +345,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_in_Person_Meeting') }}
-							</span>
-							{{ $t('strm_in_Person_Meeting_description') }}
+							{{ $t('strm_special_team_5') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -396,10 +356,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_editorial_pitching') }}
-							</span>
-							{{ $t('strm_editorial_pitching_description') }}
+							{{ $t('strm_special_team_6') }}
 						</p>
 					</li>
 
@@ -411,8 +368,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> Pitching 2ID:</span>
-							{{ $t('strm_pitching_2id_description') }}
+							{{ $t('strm_special_team_7') }}
 						</p>
 					</li>
 					<li class="flex items-start pt-6">
@@ -423,10 +379,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_traffic_management') }}
-							</span>
-							{{ $t('strm_traffic_management_description') }}
+							{{ $t('strm_special_team_8') }}
 						</p>
 					</li>
 
@@ -438,10 +391,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_music_channels') }}
-							</span>
-							{{ $t('strm_music_channels_description') }}
+							{{ $t('strm_special_team_9') }}
 						</p>
 					</li>
 
@@ -453,10 +403,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold">
-								{{ $t('strm_public_relations') }}
-							</span>
-							{{ $t('strm_public_relations_description') }}
+							{{ $t('strm_special_team_10') }}
 						</p>
 					</li>
 
@@ -468,33 +415,7 @@
 							loading="lazy"
 						/>
 						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_strm_for_labels') }}</span>
-							{{ $t('strm_strm_for_labels_description') }}
-						</p>
-					</li>
-
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							style="width: 18px; height: 18px"
-							loading="lazy"
-						/>
-						<p class="pl-2">
-							<span class="font-bold"> Strm for artists:</span>
-							{{ $t('strm_strm_for_labels_description') }}
-						</p>
-					</li>
-					<li class="flex items-start pt-6">
-						<nuxt-img
-							src="images/svg/checkIcon.svg"
-							alt="check mark"
-							style="width: 18px; height: 18px"
-							loading="lazy"
-						/>
-						<p class="pl-2">
-							<span class="font-bold"> {{ $t('strm_strm_career_diagnosis') }}</span>
-							{{ $t('strm_strm_career_diagnosis_description') }}
+							{{ $t('strm_special_team_11') }}
 						</p>
 					</li>
 				</ul>
