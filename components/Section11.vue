@@ -1,6 +1,6 @@
 <template>
-	<section class="mx-auto w-screen pt-14 lg:max-w-[1440px] lg:pt-40">
-		<div class="grid grid-cols-3 gap-0 sm:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+	<section class="mx-auto w-screen pt-14 lg:pt-40">
+		<div class="grid grid-cols-3 gap-0 sm:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-10">
 			<div class="card">
 				<nuxt-img
 					src="images/webp/grid29.webp"
