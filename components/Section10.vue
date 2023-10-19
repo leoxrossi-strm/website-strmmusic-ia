@@ -64,7 +64,7 @@
 							/>
 						</div>
 						<div>
-							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Elliane Boogie Naipe</h2>
+							<h2 class="pl-4 text-2xl font-bold lg:text-xl">Eliane Dias</h2>
 							<p class="pl-4 pt-2 font-CabinFont text-primaryPurple">
 								Boogie Naipe | {{ $t('strm_investor1') }} <span class="block"> & Board Member</span>
 							</p>
