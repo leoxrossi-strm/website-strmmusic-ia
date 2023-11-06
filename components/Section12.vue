@@ -28,13 +28,13 @@
 				</span>
 			</p>
 
-			<p class="relative z-50 pt-6 font-CabinFont text-base font-bold lg:text-xl">
+			<!-- <p class="relative z-50 pt-6 font-CabinFont text-base font-bold lg:text-xl">
 				<span class="lg:block">
 					<span class="text-[#33CAE3]"> {{ $t('strm_100_openings') }}</span>
 					{{ $t('strm_100_openings_2') }}</span
 				>
 				{{ $t('strm_100_openings_3') }}
-			</p>
+			</p> -->
 			<div class="relative z-50 flex flex-col items-start justify-start gap-4 pt-8 lg:flex-row">
 				<span class="lg:hidden">
 					<ButtonBg />
